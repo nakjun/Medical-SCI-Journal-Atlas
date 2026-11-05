@@ -1,0 +1,215 @@
+{
+  "publisher": "IOP collection",
+  "collectedAt": "2026-11-05",
+  "journals": [
+    {
+      "journalId": "iop-1",
+      "name": "Biofabrication",
+      "acceptanceRatePercent": null,
+      "collectedAt": "2026-11-05",
+      "sourceUrl": "https://iopscience.iop.org/journal/1758-5090",
+      "metricPeriod": null,
+      "status": "access_limited",
+      "verificationMethod": "official_search_with_access_limits",
+      "notes": "공식 페이지 검색 및 열람 시도. 브라우저 Biofabrication 메인 열람 가능했으나 상세 지표는 CAPTCHA로 제한. 미공개로 단정하지 않음."
+    },
+    {
+      "journalId": "iop-2",
+      "name": "Machine Learning: Science and Technology",
+      "acceptanceRatePercent": null,
+      "collectedAt": "2026-11-05",
+      "sourceUrl": "https://iopscience.iop.org/journal/2632-2153",
+      "metricPeriod": null,
+      "status": "access_limited",
+      "verificationMethod": "official_search_with_access_limits",
+      "notes": "공식 페이지 검색 및 열람 시도. 브라우저 Biofabrication 메인 열람 가능했으나 상세 지표는 CAPTCHA로 제한. 미공개로 단정하지 않음."
+    },
+    {
+      "journalId": "iop-3",
+      "name": "Measurement Science and Technology",
+      "acceptanceRatePercent": null,
+      "collectedAt": "2026-11-05",
+      "sourceUrl": "https://iopscience.iop.org/journal/0957-0233",
+      "metricPeriod": null,
+      "status": "access_limited",
+      "verificationMethod": "official_search_with_access_limits",
+      "notes": "공식 페이지 검색 및 열람 시도. 브라우저 Biofabrication 메인 열람 가능했으나 상세 지표는 CAPTCHA로 제한. 미공개로 단정하지 않음."
+    },
+    {
+      "journalId": "iop-4",
+      "name": "Bioinspiration & Biomimetics",
+      "acceptanceRatePercent": null,
+      "collectedAt": "2026-11-05",
+      "sourceUrl": "https://iopscience.iop.org/journal/1748-3190",
+      "metricPeriod": null,
+      "status": "access_limited",
+      "verificationMethod": "official_search_with_access_limits",
+      "notes": "공식 페이지 검색 및 열람 시도. 브라우저 Biofabrication 메인 열람 가능했으나 상세 지표는 CAPTCHA로 제한. 미공개로 단정하지 않음."
+    },
+    {
+      "journalId": "iop-5",
+      "name": "Inverse Problems",
+      "acceptanceRatePercent": null,
+      "collectedAt": "2026-11-05",
+      "sourceUrl": "https://iopscience.iop.org/journal/0266-5611",
+      "metricPeriod": null,
+      "status": "access_limited",
+      "verificationMethod": "official_search_with_access_limits",
+      "notes": "공식 페이지 검색 및 열람 시도. 브라우저 Biofabrication 메인 열람 가능했으나 상세 지표는 CAPTCHA로 제한. 미공개로 단정하지 않음."
+    },
+    {
+      "journalId": "iop-6",
+      "name": "Journal of Neural Engineering",
+      "acceptanceRatePercent": null,
+      "collectedAt": "2026-11-05",
+      "sourceUrl": "https://iopscience.iop.org/journal/1741-2552",
+      "metricPeriod": null,
+      "status": "access_limited",
+      "verificationMethod": "official_search_with_access_limits",
+      "notes": "공식 페이지 검색 및 열람 시도. 브라우저 Biofabrication 메인 열람 가능했으나 상세 지표는 CAPTCHA로 제한. 미공개로 단정하지 않음."
+    },
+    {
+      "journalId": "iop-7",
+      "name": "Biomedical Materials",
+      "acceptanceRatePercent": null,
+      "collectedAt": "2026-11-05",
+      "sourceUrl": "https://iopscience.iop.org/journal/1748-605X",
+      "metricPeriod": null,
+      "status": "access_limited",
+      "verificationMethod": "official_search_with_access_limits",
+      "notes": "공식 페이지 검색 및 열람 시도. 브라우저 Biofabrication 메인 열람 가능했으나 상세 지표는 CAPTCHA로 제한. 미공개로 단정하지 않음."
+    },
+    {
+      "journalId": "iop-8",
+      "name": "Smart Materials and Structures",
+      "acceptanceRatePercent": null,
+      "collectedAt": "2026-11-05",
+      "sourceUrl": "https://iopscience.iop.org/journal/0964-1726",
+      "metricPeriod": null,
+      "status": "access_limited",
+      "verificationMethod": "official_search_with_access_limits",
+      "notes": "공식 페이지 검색 및 열람 시도. 브라우저 Biofabrication 메인 열람 가능했으나 상세 지표는 CAPTCHA로 제한. 미공개로 단정하지 않음."
+    },
+    {
+      "journalId": "iop-9",
+      "name": "Journal of Physics D: Applied Physics",
+      "acceptanceRatePercent": null,
+      "collectedAt": "2026-11-05",
+      "sourceUrl": "https://iopscience.iop.org/journal/0022-3727",
+      "metricPeriod": null,
+      "status": "access_limited",
+      "verificationMethod": "official_search_with_access_limits",
+      "notes": "공식 페이지 검색 및 열람 시도. 브라우저 Biofabrication 메인 열람 가능했으나 상세 지표는 CAPTCHA로 제한. 미공개로 단정하지 않음."
+    },
+    {
+      "journalId": "iop-10",
+      "name": "Physics in Medicine & Biology",
+      "acceptanceRatePercent": null,
+      "collectedAt": "2026-11-05",
+      "sourceUrl": "https://iopscience.iop.org/journal/0031-9155",
+      "metricPeriod": null,
+      "status": "access_limited",
+      "verificationMethod": "official_search_with_access_limits",
+      "notes": "공식 페이지 검색 및 열람 시도. 브라우저 Biofabrication 메인 열람 가능했으나 상세 지표는 CAPTCHA로 제한. 미공개로 단정하지 않음."
+    },
+    {
+      "journalId": "iop-11",
+      "name": "Journal of Breath Research",
+      "acceptanceRatePercent": null,
+      "collectedAt": "2026-11-05",
+      "sourceUrl": "https://iopscience.iop.org/journal/1752-7163",
+      "metricPeriod": null,
+      "status": "access_limited",
+      "verificationMethod": "official_search_with_access_limits",
+      "notes": "공식 페이지 검색 및 열람 시도. 브라우저 Biofabrication 메인 열람 가능했으나 상세 지표는 CAPTCHA로 제한. 미공개로 단정하지 않음."
+    },
+    {
+      "journalId": "iop-12",
+      "name": "Methods and Applications in Fluorescence",
+      "acceptanceRatePercent": null,
+      "collectedAt": "2026-11-05",
+      "sourceUrl": "https://iopscience.iop.org/journal/2050-6120",
+      "metricPeriod": null,
+      "status": "access_limited",
+      "verificationMethod": "official_search_with_access_limits",
+      "notes": "공식 페이지 검색 및 열람 시도. 브라우저 Biofabrication 메인 열람 가능했으나 상세 지표는 CAPTCHA로 제한. 미공개로 단정하지 않음."
+    },
+    {
+      "journalId": "iop-13",
+      "name": "Nanotechnology",
+      "acceptanceRatePercent": null,
+      "collectedAt": "2026-11-05",
+      "sourceUrl": "https://iopscience.iop.org/journal/0957-4484",
+      "metricPeriod": null,
+      "status": "access_limited",
+      "verificationMethod": "official_search_with_access_limits",
+      "notes": "공식 페이지 검색 및 열람 시도. 브라우저 Biofabrication 메인 열람 가능했으나 상세 지표는 CAPTCHA로 제한. 미공개로 단정하지 않음."
+    },
+    {
+      "journalId": "iop-14",
+      "name": "Journal of Optics",
+      "acceptanceRatePercent": null,
+      "collectedAt": "2026-11-05",
+      "sourceUrl": "https://iopscience.iop.org/journal/2040-8986",
+      "metricPeriod": null,
+      "status": "access_limited",
+      "verificationMethod": "official_search_with_access_limits",
+      "notes": "공식 페이지 검색 및 열람 시도. 브라우저 Biofabrication 메인 열람 가능했으나 상세 지표는 CAPTCHA로 제한. 미공개로 단정하지 않음."
+    },
+    {
+      "journalId": "iop-15",
+      "name": "Journal of Micromechanics and Microengineering",
+      "acceptanceRatePercent": null,
+      "collectedAt": "2026-11-05",
+      "sourceUrl": "https://iopscience.iop.org/journal/0960-1317",
+      "metricPeriod": null,
+      "status": "access_limited",
+      "verificationMethod": "official_search_with_access_limits",
+      "notes": "공식 페이지 검색 및 열람 시도. 브라우저 Biofabrication 메인 열람 가능했으나 상세 지표는 CAPTCHA로 제한. 미공개로 단정하지 않음."
+    },
+    {
+      "journalId": "iop-16",
+      "name": "Physiological Measurement",
+      "acceptanceRatePercent": null,
+      "collectedAt": "2026-11-05",
+      "sourceUrl": "https://iopscience.iop.org/journal/0967-3334",
+      "metricPeriod": null,
+      "status": "access_limited",
+      "verificationMethod": "official_search_with_access_limits",
+      "notes": "공식 페이지 검색 및 열람 시도. 브라우저 Biofabrication 메인 열람 가능했으나 상세 지표는 CAPTCHA로 제한. 미공개로 단정하지 않음."
+    },
+    {
+      "journalId": "iop-17",
+      "name": "Medical Engineering & Physics",
+      "acceptanceRatePercent": null,
+      "collectedAt": "2026-11-05",
+      "sourceUrl": "https://www.sciencedirect.com/science/journal/13504533",
+      "metricPeriod": null,
+      "status": "access_limited",
+      "verificationMethod": "official_search_with_access_limits",
+      "notes": "사용자 IOP 컬렉션에 속하나 실제 출판사는 Elsevier. 공식 페이지 접근 제한."
+    },
+    {
+      "journalId": "iop-18",
+      "name": "Journal of Radiological Protection",
+      "acceptanceRatePercent": null,
+      "collectedAt": "2026-11-05",
+      "sourceUrl": "https://iopscience.iop.org/journal/0952-4746",
+      "metricPeriod": null,
+      "status": "access_limited",
+      "verificationMethod": "official_search_with_access_limits",
+      "notes": "공식 페이지 검색 및 열람 시도. 브라우저 Biofabrication 메인 열람 가능했으나 상세 지표는 CAPTCHA로 제한. 미공개로 단정하지 않음."
+    },
+    {
+      "journalId": "iop-19",
+      "name": "Physical Biology",
+      "acceptanceRatePercent": null,
+      "collectedAt": "2026-11-05",
+      "sourceUrl": "https://iopscience.iop.org/journal/1478-3975",
+      "metricPeriod": null,
+      "status": "access_limited",
+      "verificationMethod": "official_search_with_access_limits",
+      "notes": "공식 페이지 검색 및 열람 시도. 브라우저 Biofabrication 메인 열람 가능했으나 상세 지표는 CAPTCHA로 제한. 미공개로 단정하지 않음."
+    }
+  ]
+}

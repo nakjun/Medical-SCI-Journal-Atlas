@@ -1,0 +1,597 @@
+{
+  "collectedAt": "2026-11-05",
+  "journals": [
+    {
+      "journalId": "research-30",
+      "name": "Journal of Medical Internet Research",
+      "publisherId": "jmir",
+      "impactFactor": 8.2,
+      "quartile": "Q1",
+      "oaApc": 3350,
+      "nonOaApc": null,
+      "collectedAt": "2026-11-05",
+      "jifDataYear": 2025,
+      "jcrReleaseYear": 2026,
+      "sources": [
+        {
+          "label": "JMIR 공식 JCR 2026 발표 · 2025 JIF",
+          "url": "https://www.jmir.org/announcements/696"
+        },
+        {
+          "label": "공식 APC · 일반 연구논문 기준",
+          "url": "https://www.jmir.org/about-journal/article-processing-fees"
+        }
+      ],
+      "note": "2025 JIF · JCR 2026 발표 기준. Quartile 분야: Health Care Sciences & Services.",
+      "apcNote": "2026-11-05 확인 정규 USD 요금. 할인·기관 협약·세금 등 적용 전이며 투고 시점 요금을 확인하세요.",
+      "acceptanceRatePercent": null,
+      "sourceUrl": "https://www.jmir.org/author-information/peer-review-process",
+      "metricPeriod": null,
+      "definition": "출판사 공개 평균 게재율 · 세부 분모 및 desk rejection 포함 여부는 미명시",
+      "firstDecision": {
+        "value": 2,
+        "unit": "months",
+        "kind": "target",
+        "label": "첫 결정 목표",
+        "note": "외부 심사 원고 대상 약 2개월 목표. 실측 통계·보장 기간이 아닙니다.",
+        "sourceUrl": "https://www.jmir.org/author-information/peer-review-process"
+      },
+      "acceptanceNote": "공개 게재율 수치를 확인하지 못했습니다.",
+      "previousJif": {
+        "dataYear": 2024,
+        "value": 6,
+        "quartile": "Q1"
+      }
+    },
+    {
+      "journalId": "research-31",
+      "name": "JMIR AI",
+      "publisherId": "jmir",
+      "impactFactor": 6.1,
+      "quartile": "Q1",
+      "oaApc": 1985,
+      "nonOaApc": null,
+      "collectedAt": "2026-11-05",
+      "jifDataYear": 2025,
+      "jcrReleaseYear": 2026,
+      "sources": [
+        {
+          "label": "JMIR 공식 JCR 2026 발표 · 2025 JIF",
+          "url": "https://www.jmir.org/announcements/696"
+        },
+        {
+          "label": "공식 APC · 일반 연구논문 기준",
+          "url": "https://www.jmir.org/about-journal/article-processing-fees"
+        }
+      ],
+      "note": "2025 JIF · JCR 2026 발표 기준. Quartile 분야: Health Care Sciences & Services.",
+      "apcNote": "2026-11-05 확인 정규 USD 요금. 할인·기관 협약·세금 등 적용 전이며 투고 시점 요금을 확인하세요.",
+      "acceptanceRatePercent": null,
+      "sourceUrl": "https://ai.jmir.org/author-information/peer-review-process",
+      "metricPeriod": null,
+      "definition": "출판사 공개 평균 게재율 · 세부 분모 및 desk rejection 포함 여부는 미명시",
+      "firstDecision": {
+        "value": 2,
+        "unit": "months",
+        "kind": "target",
+        "label": "첫 결정 목표",
+        "note": "외부 심사 원고 대상 약 2개월 목표. 실측 통계·보장 기간이 아닙니다.",
+        "sourceUrl": "https://ai.jmir.org/author-information/peer-review-process"
+      },
+      "acceptanceNote": "공개 게재율 수치를 확인하지 못했습니다.",
+      "previousJif": {
+        "dataYear": 2024,
+        "value": 2,
+        "quartile": "Q3"
+      }
+    },
+    {
+      "journalId": "research-32",
+      "name": "JMIR Medical Informatics",
+      "publisherId": "jmir",
+      "impactFactor": 5.0,
+      "quartile": "Q2",
+      "oaApc": 2750,
+      "nonOaApc": null,
+      "collectedAt": "2026-11-05",
+      "jifDataYear": 2025,
+      "jcrReleaseYear": 2026,
+      "sources": [
+        {
+          "label": "JMIR 공식 JCR 2026 발표 · 2025 JIF",
+          "url": "https://www.jmir.org/announcements/696"
+        },
+        {
+          "label": "공식 APC · 일반 연구논문 기준",
+          "url": "https://www.jmir.org/about-journal/article-processing-fees"
+        }
+      ],
+      "note": "2025 JIF · JCR 2026 발표 기준. Quartile 분야: Medical Informatics.",
+      "apcNote": "2026-11-05 확인 정규 USD 요금. 할인·기관 협약·세금 등 적용 전이며 투고 시점 요금을 확인하세요.",
+      "acceptanceRatePercent": null,
+      "sourceUrl": "https://medinform.jmir.org/author-information/peer-review-process",
+      "metricPeriod": null,
+      "definition": "출판사 공개 평균 게재율 · 세부 분모 및 desk rejection 포함 여부는 미명시",
+      "firstDecision": {
+        "value": 2,
+        "unit": "months",
+        "kind": "target",
+        "label": "첫 결정 목표",
+        "note": "외부 심사 원고 대상 약 2개월 목표. 실측 통계·보장 기간이 아닙니다.",
+        "sourceUrl": "https://medinform.jmir.org/author-information/peer-review-process"
+      },
+      "acceptanceNote": "공개 게재율 수치를 확인하지 못했습니다.",
+      "previousJif": {
+        "dataYear": 2024,
+        "value": 3.8,
+        "quartile": "Q2"
+      }
+    },
+    {
+      "journalId": "research-33",
+      "name": "JMIR Biomedical Engineering",
+      "publisherId": "jmir",
+      "impactFactor": null,
+      "quartile": "미확인",
+      "oaApc": 1500,
+      "nonOaApc": null,
+      "collectedAt": "2026-11-05",
+      "jifDataYear": 2025,
+      "jcrReleaseYear": 2026,
+      "sources": [
+        {
+          "label": "공식 색인·지표 안내",
+          "url": "https://biomedeng.jmir.org/about-journal/indexing-and-impact-factor"
+        },
+        {
+          "label": "공식 APC · 일반 연구논문 기준",
+          "url": "https://www.jmir.org/about-journal/article-processing-fees"
+        }
+      ],
+      "note": "2025 JIF를 재조사했으나 공식 색인 안내와 JCR 2026 발표에서 확인되지 않습니다. 공식 페이지의 2025 CiteScore는 JIF와 다른 지표이므로 대체하지 않았습니다.",
+      "apcNote": "2026-11-05 확인 정규 USD 요금. 할인·기관 협약·세금 등 적용 전이며 투고 시점 요금을 확인하세요.",
+      "acceptanceRatePercent": null,
+      "sourceUrl": "https://biomedeng.jmir.org/author-information/peer-review-process",
+      "metricPeriod": null,
+      "definition": "출판사 공개 평균 게재율 · 세부 분모 및 desk rejection 포함 여부는 미명시",
+      "firstDecision": {
+        "value": 2,
+        "unit": "months",
+        "kind": "target",
+        "label": "첫 결정 목표",
+        "note": "외부 심사 원고 대상 약 2개월 목표. 실측 통계·보장 기간이 아닙니다.",
+        "sourceUrl": "https://biomedeng.jmir.org/author-information/peer-review-process"
+      },
+      "acceptanceNote": "공개 게재율 수치를 확인하지 못했습니다.",
+      "previousJif": {
+        "dataYear": 2024,
+        "value": null,
+        "quartile": "미확인"
+      }
+    },
+    {
+      "journalId": "research-34",
+      "name": "JMIR mHealth and uHealth",
+      "publisherId": "jmir",
+      "impactFactor": 6.3,
+      "quartile": "Q1",
+      "oaApc": 3150,
+      "nonOaApc": null,
+      "collectedAt": "2026-11-05",
+      "jifDataYear": 2025,
+      "jcrReleaseYear": 2026,
+      "sources": [
+        {
+          "label": "JMIR 공식 JCR 2026 발표 · 2025 JIF",
+          "url": "https://www.jmir.org/announcements/696"
+        },
+        {
+          "label": "공식 APC · 일반 연구논문 기준",
+          "url": "https://www.jmir.org/about-journal/article-processing-fees"
+        }
+      ],
+      "note": "2025 JIF · JCR 2026 발표 기준. Quartile 분야: Health Care Sciences & Services.",
+      "apcNote": "2026-11-05 확인 정규 USD 요금. 할인·기관 협약·세금 등 적용 전이며 투고 시점 요금을 확인하세요.",
+      "acceptanceRatePercent": null,
+      "sourceUrl": "https://mhealth.jmir.org/author-information/peer-review-process",
+      "metricPeriod": null,
+      "definition": "출판사 공개 평균 게재율 · 세부 분모 및 desk rejection 포함 여부는 미명시",
+      "firstDecision": {
+        "value": 2,
+        "unit": "months",
+        "kind": "target",
+        "label": "첫 결정 목표",
+        "note": "외부 심사 원고 대상 약 2개월 목표. 실측 통계·보장 기간이 아닙니다.",
+        "sourceUrl": "https://mhealth.jmir.org/author-information/peer-review-process"
+      },
+      "acceptanceNote": "공개 게재율 수치를 확인하지 못했습니다.",
+      "previousJif": {
+        "dataYear": 2024,
+        "value": 6.2,
+        "quartile": "Q1"
+      }
+    },
+    {
+      "journalId": "research-35",
+      "name": "JMIR Human Factors",
+      "publisherId": "jmir",
+      "impactFactor": 3.9,
+      "quartile": "Q1",
+      "oaApc": 1985,
+      "nonOaApc": null,
+      "collectedAt": "2026-11-05",
+      "jifDataYear": 2025,
+      "jcrReleaseYear": 2026,
+      "sources": [
+        {
+          "label": "JMIR 공식 JCR 2026 발표 · 2025 JIF",
+          "url": "https://www.jmir.org/announcements/696"
+        },
+        {
+          "label": "공식 APC · 일반 연구논문 기준",
+          "url": "https://www.jmir.org/about-journal/article-processing-fees"
+        }
+      ],
+      "note": "2025 JIF · JCR 2026 발표 기준. Quartile 분야: Health Care Sciences & Services.",
+      "apcNote": "2026-11-05 확인 정규 USD 요금. 할인·기관 협약·세금 등 적용 전이며 투고 시점 요금을 확인하세요.",
+      "acceptanceRatePercent": null,
+      "sourceUrl": "https://humanfactors.jmir.org/author-information/peer-review-process",
+      "metricPeriod": null,
+      "definition": "출판사 공개 평균 게재율 · 세부 분모 및 desk rejection 포함 여부는 미명시",
+      "firstDecision": {
+        "value": 2,
+        "unit": "months",
+        "kind": "target",
+        "label": "첫 결정 목표",
+        "note": "외부 심사 원고 대상 약 2개월 목표. 실측 통계·보장 기간이 아닙니다.",
+        "sourceUrl": "https://humanfactors.jmir.org/author-information/peer-review-process"
+      },
+      "acceptanceNote": "공개 게재율 수치를 확인하지 못했습니다.",
+      "previousJif": {
+        "dataYear": 2024,
+        "value": 3,
+        "quartile": "Q2"
+      }
+    },
+    {
+      "journalId": "research-36",
+      "name": "JMIR Neurotechnology",
+      "publisherId": "jmir",
+      "impactFactor": null,
+      "quartile": "미확인",
+      "oaApc": 1500,
+      "nonOaApc": null,
+      "collectedAt": "2026-11-05",
+      "jifDataYear": 2025,
+      "jcrReleaseYear": 2026,
+      "sources": [
+        {
+          "label": "공식 색인·지표 안내",
+          "url": "https://neuro.jmir.org/about-journal/indexing-and-impact-factor"
+        },
+        {
+          "label": "공식 APC · 일반 연구논문 기준",
+          "url": "https://www.jmir.org/about-journal/article-processing-fees"
+        }
+      ],
+      "note": "2025 JIF를 재조사했으나 공식 색인 안내와 JCR 2026 발표에서 확인되지 않습니다. 공식 페이지의 2025 CiteScore는 JIF와 다른 지표이므로 대체하지 않았습니다.",
+      "apcNote": "2026-11-05 확인 정규 USD 요금. 할인·기관 협약·세금 등 적용 전이며 투고 시점 요금을 확인하세요. Neurotechnology의 한시 할인 안내는 정규 요금과 구분했습니다.",
+      "acceptanceRatePercent": null,
+      "sourceUrl": "https://neuro.jmir.org/author-information/peer-review-process",
+      "metricPeriod": null,
+      "definition": "출판사 공개 평균 게재율 · 세부 분모 및 desk rejection 포함 여부는 미명시",
+      "firstDecision": {
+        "value": 2,
+        "unit": "months",
+        "kind": "target",
+        "label": "첫 결정 목표",
+        "note": "외부 심사 원고 대상 약 2개월 목표. 실측 통계·보장 기간이 아닙니다.",
+        "sourceUrl": "https://neuro.jmir.org/author-information/peer-review-process"
+      },
+      "acceptanceNote": "공개 게재율 수치를 확인하지 못했습니다.",
+      "previousJif": {
+        "dataYear": 2024,
+        "value": null,
+        "quartile": "미확인"
+      }
+    },
+    {
+      "journalId": "research-37",
+      "name": "JMIR Rehabilitation and Assistive Technologies",
+      "publisherId": "jmir",
+      "impactFactor": 3.1,
+      "quartile": "Q1",
+      "oaApc": 1985,
+      "nonOaApc": null,
+      "collectedAt": "2026-11-05",
+      "jifDataYear": 2025,
+      "jcrReleaseYear": 2026,
+      "sources": [
+        {
+          "label": "JMIR 공식 JCR 2026 발표 · 2025 JIF",
+          "url": "https://www.jmir.org/announcements/696"
+        },
+        {
+          "label": "공식 APC · 일반 연구논문 기준",
+          "url": "https://www.jmir.org/about-journal/article-processing-fees"
+        }
+      ],
+      "note": "2025 JIF · JCR 2026 발표 기준. Quartile 분야: Rehabilitation.",
+      "apcNote": "2026-11-05 확인 정규 USD 요금. 할인·기관 협약·세금 등 적용 전이며 투고 시점 요금을 확인하세요.",
+      "acceptanceRatePercent": null,
+      "sourceUrl": "https://rehab.jmir.org/author-information/peer-review-process",
+      "metricPeriod": null,
+      "definition": "출판사 공개 평균 게재율 · 세부 분모 및 desk rejection 포함 여부는 미명시",
+      "firstDecision": {
+        "value": 2,
+        "unit": "months",
+        "kind": "target",
+        "label": "첫 결정 목표",
+        "note": "외부 심사 원고 대상 약 2개월 목표. 실측 통계·보장 기간이 아닙니다.",
+        "sourceUrl": "https://rehab.jmir.org/author-information/peer-review-process"
+      },
+      "acceptanceNote": "공개 게재율 수치를 확인하지 못했습니다.",
+      "previousJif": {
+        "dataYear": 2024,
+        "value": 3,
+        "quartile": "Q1"
+      }
+    },
+    {
+      "journalId": "research-38",
+      "name": "JMIR Formative Research",
+      "publisherId": "jmir",
+      "impactFactor": 2.4,
+      "quartile": "Q2",
+      "oaApc": 2500,
+      "nonOaApc": null,
+      "collectedAt": "2026-11-05",
+      "jifDataYear": 2025,
+      "jcrReleaseYear": 2026,
+      "sources": [
+        {
+          "label": "JMIR 공식 JCR 2026 발표 · 2025 JIF",
+          "url": "https://www.jmir.org/announcements/696"
+        },
+        {
+          "label": "공식 APC · 일반 연구논문 기준",
+          "url": "https://www.jmir.org/about-journal/article-processing-fees"
+        }
+      ],
+      "note": "2025 JIF · JCR 2026 발표 기준. Quartile 분야: Health Care Sciences & Services.",
+      "apcNote": "2026-11-05 확인 정규 USD 요금. 할인·기관 협약·세금 등 적용 전이며 투고 시점 요금을 확인하세요.",
+      "acceptanceRatePercent": null,
+      "sourceUrl": "https://formative.jmir.org/author-information/peer-review-process",
+      "metricPeriod": null,
+      "definition": "출판사 공개 평균 게재율 · 세부 분모 및 desk rejection 포함 여부는 미명시",
+      "firstDecision": {
+        "value": 2,
+        "unit": "months",
+        "kind": "target",
+        "label": "첫 결정 목표",
+        "note": "외부 심사 원고 대상 약 2개월 목표. 실측 통계·보장 기간이 아닙니다.",
+        "sourceUrl": "https://formative.jmir.org/author-information/peer-review-process"
+      },
+      "acceptanceNote": "공개 게재율 수치를 확인하지 못했습니다.",
+      "previousJif": {
+        "dataYear": 2024,
+        "value": 2.1,
+        "quartile": "Q3"
+      }
+    },
+    {
+      "journalId": "research-39",
+      "name": "JMIR Serious Games",
+      "publisherId": "jmir",
+      "impactFactor": 4.7,
+      "quartile": "Q1",
+      "oaApc": 2950,
+      "nonOaApc": null,
+      "collectedAt": "2026-11-05",
+      "jifDataYear": 2025,
+      "jcrReleaseYear": 2026,
+      "sources": [
+        {
+          "label": "JMIR 공식 JCR 2026 발표 · 2025 JIF",
+          "url": "https://www.jmir.org/announcements/696"
+        },
+        {
+          "label": "공식 APC · 일반 연구논문 기준",
+          "url": "https://www.jmir.org/about-journal/article-processing-fees"
+        }
+      ],
+      "note": "2025 JIF · JCR 2026 발표 기준. Quartile 분야: Public, Environmental & Occupational Health.",
+      "apcNote": "2026-11-05 확인 정규 USD 요금. 할인·기관 협약·세금 등 적용 전이며 투고 시점 요금을 확인하세요.",
+      "acceptanceRatePercent": null,
+      "sourceUrl": "https://games.jmir.org/author-information/peer-review-process",
+      "metricPeriod": null,
+      "definition": "출판사 공개 평균 게재율 · 세부 분모 및 desk rejection 포함 여부는 미명시",
+      "firstDecision": {
+        "value": 2,
+        "unit": "months",
+        "kind": "target",
+        "label": "첫 결정 목표",
+        "note": "외부 심사 원고 대상 약 2개월 목표. 실측 통계·보장 기간이 아닙니다.",
+        "sourceUrl": "https://games.jmir.org/author-information/peer-review-process"
+      },
+      "acceptanceNote": "공개 게재율 수치를 확인하지 못했습니다.",
+      "previousJif": {
+        "dataYear": 2024,
+        "value": 4.1,
+        "quartile": "Q1"
+      }
+    },
+    {
+      "journalId": "research-40",
+      "name": "PLOS Digital Health",
+      "publisherId": "plos",
+      "impactFactor": 7.7,
+      "quartile": "Q1",
+      "oaApc": 3165,
+      "nonOaApc": null,
+      "collectedAt": "2026-11-05",
+      "jifDataYear": 2025,
+      "jcrReleaseYear": 2026,
+      "sources": [
+        {
+          "label": "연구기관 공개 JCR 2026 자료 · 2025 JIF",
+          "url": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf"
+        },
+        {
+          "label": "공식 APC · 일반 연구논문 기준",
+          "url": "https://plos.org/fees/"
+        }
+      ],
+      "note": "2025 JIF · JCR 2026 발표 기준. 공개 자료의 JIF 2026 열은 발표 연도 표기이며 이 사이트에서는 데이터 연도인 2025 JIF로 표시합니다.",
+      "apcNote": "2026-11-05 확인 정규 USD 요금. 할인·기관 협약·세금 등 적용 전이며 투고 시점 요금을 확인하세요.",
+      "acceptanceRatePercent": 33,
+      "sourceUrl": "https://plos.org/metrics/",
+      "metricPeriod": "2025",
+      "definition": "출판사 공개 평균 게재율 · 세부 분모 및 desk rejection 포함 여부는 미명시",
+      "firstDecision": {
+        "value": 52,
+        "unit": "days",
+        "kind": "median",
+        "label": "첫 결정 중앙값",
+        "note": "2025년 집계 중앙값. 세부 대상 원고 범위는 미명시.",
+        "sourceUrl": "https://plos.org/metrics/"
+      },
+      "acceptanceNote": "",
+      "previousJif": {
+        "dataYear": 2024,
+        "value": 7.7,
+        "quartile": "Q1"
+      }
+    },
+    {
+      "journalId": "research-41",
+      "name": "PLOS Computational Biology",
+      "publisherId": "plos",
+      "impactFactor": 3.7,
+      "quartile": "Q1",
+      "oaApc": 3165,
+      "nonOaApc": null,
+      "collectedAt": "2026-11-05",
+      "jifDataYear": 2025,
+      "jcrReleaseYear": 2026,
+      "sources": [
+        {
+          "label": "연구기관 공개 JCR 2026 자료 · 2025 JIF",
+          "url": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf"
+        },
+        {
+          "label": "공식 APC · 일반 연구논문 기준",
+          "url": "https://plos.org/fees/"
+        },
+        {
+          "label": "Comillas IIT · 2025 JCR-JIF 및 Quartile",
+          "url": "https://www.iit.comillas.edu/publicacion/info_revista/en/518/Plos_Computational_Biology"
+        }
+      ],
+      "note": "2025 JIF · JCR 2026 발표 기준. 공개 자료의 JIF 2026 열은 발표 연도 표기이며 이 사이트에서는 데이터 연도인 2025 JIF로 표시합니다. Quartile은 Comillas IIT의 2025 JCR-JIF Q1을 표시합니다. 다른 공개 JCR 표에는 Q2로 표시되며 분야가 명시되지 않아 출처 간 차이를 함께 안내합니다.",
+      "apcNote": "2026-11-05 확인 정규 USD 요금. 할인·기관 협약·세금 등 적용 전이며 투고 시점 요금을 확인하세요.",
+      "acceptanceRatePercent": 33,
+      "sourceUrl": "https://plos.org/metrics/",
+      "metricPeriod": "2025",
+      "definition": "출판사 공개 평균 게재율 · 세부 분모 및 desk rejection 포함 여부는 미명시",
+      "firstDecision": {
+        "value": 41,
+        "unit": "days",
+        "kind": "median",
+        "label": "첫 결정 중앙값",
+        "note": "2025년 집계 중앙값. 세부 대상 원고 범위는 미명시.",
+        "sourceUrl": "https://plos.org/metrics/"
+      },
+      "acceptanceNote": "",
+      "previousJif": {
+        "dataYear": 2024,
+        "value": 3.6,
+        "quartile": "Q1"
+      }
+    },
+    {
+      "journalId": "research-42",
+      "name": "PLOS ONE",
+      "publisherId": "plos",
+      "impactFactor": 2.8,
+      "quartile": "Q2",
+      "oaApc": 2477,
+      "nonOaApc": null,
+      "collectedAt": "2026-11-05",
+      "jifDataYear": 2025,
+      "jcrReleaseYear": 2026,
+      "sources": [
+        {
+          "label": "연구기관 공개 JCR 2026 자료 · 2025 JIF",
+          "url": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf"
+        },
+        {
+          "label": "공식 APC · 일반 연구논문 기준",
+          "url": "https://plos.org/fees/"
+        }
+      ],
+      "note": "2025 JIF · JCR 2026 발표 기준. 공개 자료의 JIF 2026 열은 발표 연도 표기이며 이 사이트에서는 데이터 연도인 2025 JIF로 표시합니다.",
+      "apcNote": "2026-11-05 확인 정규 USD 요금. 할인·기관 협약·세금 등 적용 전이며 투고 시점 요금을 확인하세요.",
+      "acceptanceRatePercent": 26,
+      "sourceUrl": "https://plos.org/metrics/",
+      "metricPeriod": "2025",
+      "definition": "출판사 공개 평균 게재율 · 세부 분모 및 desk rejection 포함 여부는 미명시",
+      "firstDecision": {
+        "value": 32,
+        "unit": "days",
+        "kind": "median",
+        "label": "첫 결정 중앙값",
+        "note": "2025년 집계 중앙값. 세부 대상 원고 범위는 미명시.",
+        "sourceUrl": "https://plos.org/metrics/"
+      },
+      "acceptanceNote": "",
+      "previousJif": {
+        "dataYear": 2024,
+        "value": 2.6,
+        "quartile": "Q2"
+      }
+    },
+    {
+      "journalId": "research-43",
+      "name": "PLOS Medicine",
+      "publisherId": "plos",
+      "impactFactor": 9.9,
+      "quartile": "Q1",
+      "oaApc": 6460,
+      "nonOaApc": null,
+      "collectedAt": "2026-11-05",
+      "jifDataYear": 2025,
+      "jcrReleaseYear": 2026,
+      "sources": [
+        {
+          "label": "연구기관 공개 JCR 2026 자료 · 2025 JIF",
+          "url": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf"
+        },
+        {
+          "label": "공식 APC · 일반 연구논문 기준",
+          "url": "https://plos.org/fees/"
+        }
+      ],
+      "note": "2025 JIF · JCR 2026 발표 기준. 공개 자료의 JIF 2026 열은 발표 연도 표기이며 이 사이트에서는 데이터 연도인 2025 JIF로 표시합니다.",
+      "apcNote": "2026-11-05 확인 정규 USD 요금. 할인·기관 협약·세금 등 적용 전이며 투고 시점 요금을 확인하세요.",
+      "acceptanceRatePercent": 4,
+      "sourceUrl": "https://plos.org/metrics/",
+      "metricPeriod": "2025",
+      "definition": "출판사 공개 평균 게재율 · 세부 분모 및 desk rejection 포함 여부는 미명시",
+      "firstDecision": {
+        "value": 67,
+        "unit": "days",
+        "kind": "median",
+        "label": "첫 결정 중앙값",
+        "note": "2025년 집계 중앙값. 세부 대상 원고 범위는 미명시.",
+        "sourceUrl": "https://plos.org/metrics/"
+      },
+      "acceptanceNote": "",
+      "previousJif": {
+        "dataYear": 2024,
+        "value": 9.9,
+        "quartile": "Q1"
+      }
+    }
+  ]
+}

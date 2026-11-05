@@ -1,0 +1,107 @@
+[
+  {
+    "journalId": "elsevier-1",
+    "sourceUrl": "https://www.sciencedirect.com/journal/medical-image-analysis/about/insights",
+    "acceptanceRatePercent": null,
+    "status": "official_page_read",
+    "evidence": null
+  },
+  {
+    "journalId": "elsevier-2",
+    "sourceUrl": "https://www.sciencedirect.com/journal/biomaterials/about/insights",
+    "acceptanceRatePercent": 11,
+    "status": "official_page_read",
+    "evidence": "heading \"Acceptance rate\" [level=3]\n  - list:\n    - generic: 11%"
+  },
+  {
+    "journalId": "elsevier-3",
+    "sourceUrl": "https://www.sciencedirect.com/journal/biosensors-and-bioelectronics/about/insights",
+    "acceptanceRatePercent": null,
+    "status": "official_page_read",
+    "evidence": null
+  },
+  {
+    "journalId": "elsevier-4",
+    "sourceUrl": "https://www.em-consulte.com/revue/DII/derniernumero/diagnostic-and-interventional-imaging",
+    "acceptanceRatePercent": null,
+    "status": "access_limited",
+    "evidence": null
+  },
+  {
+    "journalId": "elsevier-5",
+    "sourceUrl": "https://www.sciencedirect.com/journal/materials-today-bio/about/insights",
+    "acceptanceRatePercent": 22,
+    "status": "official_page_read",
+    "evidence": "heading \"Acceptance rate\" [level=3]\n  - list:\n    - generic: 22%"
+  },
+  {
+    "journalId": "elsevier-6",
+    "sourceUrl": "https://www.sciencedirect.com/journal/acta-biomaterialia/about/insights",
+    "acceptanceRatePercent": null,
+    "status": "official_page_read",
+    "evidence": null
+  },
+  {
+    "journalId": "elsevier-7",
+    "sourceUrl": "https://www.sciencedirect.com/journal/artificial-intelligence-in-medicine/about/insights",
+    "acceptanceRatePercent": null,
+    "status": "official_page_read",
+    "evidence": null
+  },
+  {
+    "journalId": "elsevier-8",
+    "sourceUrl": "https://www.sciencedirect.com/journal/photoacoustics/about/insights",
+    "acceptanceRatePercent": 40,
+    "status": "official_page_read",
+    "evidence": "heading \"Acceptance rate\" [level=3]\n  - list:\n    - generic: 40%"
+  },
+  {
+    "journalId": "elsevier-9",
+    "sourceUrl": "https://www.sciencedirect.com/journal/biomaterials-advances",
+    "acceptanceRatePercent": null,
+    "status": "access_limited",
+    "evidence": null
+  },
+  {
+    "journalId": "elsevier-10",
+    "sourceUrl": "https://www.sciencedirect.com/journal/seminars-in-nuclear-medicine",
+    "acceptanceRatePercent": null,
+    "status": "access_limited",
+    "evidence": null
+  },
+  {
+    "journalId": "elsevier-11",
+    "sourceUrl": "https://www.sciencedirect.com/journal/computer-methods-and-programs-in-biomedicine",
+    "acceptanceRatePercent": null,
+    "status": "access_limited",
+    "evidence": null
+  },
+  {
+    "journalId": "elsevier-12",
+    "sourceUrl": "https://www.sciencedirect.com/journal/colloids-and-surfaces-b-biointerfaces",
+    "acceptanceRatePercent": null,
+    "status": "access_limited",
+    "evidence": null
+  },
+  {
+    "journalId": "elsevier-13",
+    "sourceUrl": "https://www.sciencedirect.com/journal/radiotherapy-and-oncology",
+    "acceptanceRatePercent": null,
+    "status": "access_limited",
+    "evidence": null
+  },
+  {
+    "journalId": "elsevier-14",
+    "sourceUrl": "https://www.sciencedirect.com/journal/computerized-medical-imaging-and-graphics",
+    "acceptanceRatePercent": null,
+    "status": "access_limited",
+    "evidence": null
+  },
+  {
+    "journalId": "elsevier-15",
+    "sourceUrl": "https://www.sciencedirect.com/journal/journal-of-cardiovascular-computed-tomography",
+    "acceptanceRatePercent": null,
+    "status": "access_limited",
+    "evidence": null
+  }
+]

@@ -1,0 +1,1052 @@
+[
+  {
+    "id": "springer-1",
+    "name": "Nature Biomedical Engineering",
+    "publisher": "springer",
+    "url": "https://www.nature.com/natbiomedeng/"
+  },
+  {
+    "id": "springer-2",
+    "name": "npj Digital Medicine",
+    "publisher": "springer",
+    "url": "https://www.nature.com/npjdigitalmed/"
+  },
+  {
+    "id": "springer-3",
+    "name": "Journal of Nanobiotechnology",
+    "publisher": "springer",
+    "url": "https://link.springer.com/journal/12951"
+  },
+  {
+    "id": "springer-4",
+    "name": "Journal of Medical Systems",
+    "publisher": "springer",
+    "url": "https://link.springer.com/journal/10916"
+  },
+  {
+    "id": "springer-5",
+    "name": "Bio-Design and Manufacturing",
+    "publisher": "springer",
+    "url": "https://link.springer.com/journal/42242"
+  },
+  {
+    "id": "springer-6",
+    "name": "European Journal of Nuclear Medicine and Molecular Imaging",
+    "publisher": "springer",
+    "url": "https://link.springer.com/journal/259"
+  },
+  {
+    "id": "springer-7",
+    "name": "npj Regenerative Medicine",
+    "publisher": "springer",
+    "url": "https://www.nature.com/npjregenmed/"
+  },
+  {
+    "id": "springer-8",
+    "name": "BioChip Journal",
+    "publisher": "springer",
+    "url": "https://link.springer.com/journal/13206"
+  },
+  {
+    "id": "springer-9",
+    "name": "Journal of Biological Engineering",
+    "publisher": "springer",
+    "url": "https://link.springer.com/journal/13036"
+  },
+  {
+    "id": "springer-10",
+    "name": "Bioresources and Bioprocessing",
+    "publisher": "springer",
+    "url": "https://link.springer.com/journal/40643"
+  },
+  {
+    "id": "springer-11",
+    "name": "Journal of NeuroEngineering and Rehabilitation",
+    "publisher": "springer",
+    "url": "https://link.springer.com/journal/12984"
+  },
+  {
+    "id": "springer-12",
+    "name": "European Radiology",
+    "publisher": "springer",
+    "url": "https://link.springer.com/journal/330"
+  },
+  {
+    "id": "springer-13",
+    "name": "Insights into Imaging",
+    "publisher": "springer",
+    "url": "https://link.springer.com/journal/13244"
+  },
+  {
+    "id": "springer-14",
+    "name": "La radiologia medica",
+    "publisher": "springer",
+    "url": "https://link.springer.com/journal/11547"
+  },
+  {
+    "id": "springer-15",
+    "name": "European Radiology Experimental",
+    "publisher": "springer",
+    "url": "https://link.springer.com/journal/41747"
+  },
+  {
+    "id": "springer-16",
+    "name": "Japanese Journal of Radiology",
+    "publisher": "springer",
+    "url": "https://link.springer.com/journal/11604"
+  },
+  {
+    "id": "springer-17",
+    "name": "BMC Bioinformatics",
+    "publisher": "springer",
+    "url": "https://link.springer.com/journal/12859"
+  },
+  {
+    "id": "springer-18",
+    "name": "Journal of Bionic Engineering",
+    "publisher": "springer",
+    "url": "https://link.springer.com/journal/42235"
+  },
+  {
+    "id": "springer-19",
+    "name": "BMC Medical Imaging",
+    "publisher": "springer",
+    "url": "https://link.springer.com/journal/12880"
+  },
+  {
+    "id": "springer-20",
+    "name": "International Journal of Computer Assisted Radiology and Surgery",
+    "publisher": "springer",
+    "url": "https://link.springer.com/journal/11548"
+  },
+  {
+    "id": "springer-21",
+    "name": "BMC Medical Informatics and Decision Making",
+    "publisher": "springer",
+    "url": "https://link.springer.com/journal/12911"
+  },
+  {
+    "id": "springer-22",
+    "name": "Annals of Biomedical Engineering",
+    "publisher": "springer",
+    "url": "https://link.springer.com/journal/10439"
+  },
+  {
+    "id": "springer-23",
+    "name": "Journal of Materials Science: Materials in Medicine",
+    "publisher": "springer",
+    "url": "https://link.springer.com/journal/10856"
+  },
+  {
+    "id": "springer-24",
+    "name": "BioMedical Engineering OnLine",
+    "publisher": "springer",
+    "url": "https://link.springer.com/journal/12938"
+  },
+  {
+    "id": "springer-25",
+    "name": "Biomedical Microdevices",
+    "publisher": "springer",
+    "url": "https://link.springer.com/journal/10544"
+  },
+  {
+    "id": "springer-26",
+    "name": "Bioprocess and Biosystems Engineering",
+    "publisher": "springer",
+    "url": "https://link.springer.com/journal/449"
+  },
+  {
+    "id": "springer-27",
+    "name": "Biomedical Engineering Letters",
+    "publisher": "springer",
+    "url": "https://link.springer.com/journal/13534"
+  },
+  {
+    "id": "springer-28",
+    "name": "Medical & Biological Engineering & Computing",
+    "publisher": "springer",
+    "url": "https://link.springer.com/journal/11517"
+  },
+  {
+    "id": "springer-29",
+    "name": "Journal of Imaging Informatics in Medicine",
+    "publisher": "springer",
+    "url": "https://link.springer.com/journal/10278"
+  },
+  {
+    "id": "springer-30",
+    "name": "Biomechanics and Modeling in Mechanobiology",
+    "publisher": "springer",
+    "url": "https://link.springer.com/journal/10237"
+  },
+  {
+    "id": "springer-31",
+    "name": "Physical and Engineering Sciences in Medicine",
+    "publisher": "springer",
+    "url": "https://link.springer.com/journal/13246"
+  },
+  {
+    "id": "springer-32",
+    "name": "Cell and Tissue Research",
+    "publisher": "springer",
+    "url": "https://link.springer.com/journal/441"
+  },
+  {
+    "id": "springer-33",
+    "name": "Biotechnology and Bioprocess Engineering",
+    "publisher": "springer",
+    "url": "https://link.springer.com/journal/12257"
+  },
+  {
+    "id": "springer-34",
+    "name": "Biotechnology Letters",
+    "publisher": "springer",
+    "url": "https://link.springer.com/journal/10529"
+  },
+  {
+    "id": "springer-35",
+    "name": "Cell and Tissue Banking",
+    "publisher": "springer",
+    "url": "https://link.springer.com/journal/10561"
+  },
+  {
+    "id": "springer-36",
+    "name": "Cytotechnology",
+    "publisher": "springer",
+    "url": "https://link.springer.com/journal/10616"
+  },
+  {
+    "id": "springer-37",
+    "name": "Journal of Medical and Biological Engineering",
+    "publisher": "springer",
+    "url": "https://link.springer.com/journal/40846"
+  },
+  {
+    "id": "springer-38",
+    "name": "Journal of Medical Ultrasonics",
+    "publisher": "springer",
+    "url": "https://link.springer.com/journal/10396"
+  },
+  {
+    "id": "springer-39",
+    "name": "Clinical and Translational Imaging",
+    "publisher": "springer",
+    "url": "https://link.springer.com/journal/40336"
+  },
+  {
+    "id": "springer-40",
+    "name": "Journal of Artificial Organs",
+    "publisher": "springer",
+    "url": "https://link.springer.com/journal/10047"
+  },
+  {
+    "id": "elsevier-1",
+    "name": "Medical Image Analysis",
+    "publisher": "elsevier",
+    "url": "https://www.sciencedirect.com/science/journal/13618415"
+  },
+  {
+    "id": "elsevier-2",
+    "name": "Biomaterials",
+    "publisher": "elsevier",
+    "url": "https://www.sciencedirect.com/science/journal/01429612"
+  },
+  {
+    "id": "elsevier-3",
+    "name": "Biosensors and Bioelectronics",
+    "publisher": "elsevier",
+    "url": "https://www.sciencedirect.com/science/journal/09565663"
+  },
+  {
+    "id": "elsevier-4",
+    "name": "Diagnostic and Interventional Imaging",
+    "publisher": "elsevier",
+    "url": "https://www.em-consulte.com/revue/DII/derniernumero/diagnostic-and-interventional-imaging"
+  },
+  {
+    "id": "elsevier-5",
+    "name": "Materials Today Bio",
+    "publisher": "elsevier",
+    "url": "https://www.sciencedirect.com/journal/materials-today-bio"
+  },
+  {
+    "id": "elsevier-6",
+    "name": "Acta Biomaterialia",
+    "publisher": "elsevier",
+    "url": "https://www.sciencedirect.com/science/journal/17427061"
+  },
+  {
+    "id": "elsevier-7",
+    "name": "Artificial Intelligence in Medicine",
+    "publisher": "elsevier",
+    "url": "https://www.sciencedirect.com/science/journal/09333657"
+  },
+  {
+    "id": "elsevier-8",
+    "name": "Photoacoustics",
+    "publisher": "elsevier",
+    "url": "https://www.sciencedirect.com/journal/photoacoustics"
+  },
+  {
+    "id": "elsevier-9",
+    "name": "Biomaterials Advances",
+    "publisher": "elsevier",
+    "url": "https://www.sciencedirect.com/science/journal/27729508"
+  },
+  {
+    "id": "elsevier-10",
+    "name": "Seminars in Nuclear Medicine",
+    "publisher": "elsevier",
+    "url": "https://www.sciencedirect.com/science/journal/00012998"
+  },
+  {
+    "id": "elsevier-11",
+    "name": "Computer Methods and Programs in Biomedicine",
+    "publisher": "elsevier",
+    "url": "https://www.sciencedirect.com/science/journal/01692607"
+  },
+  {
+    "id": "elsevier-12",
+    "name": "Colloids and Surfaces B: Biointerfaces",
+    "publisher": "elsevier",
+    "url": "https://www.sciencedirect.com/science/journal/09277765"
+  },
+  {
+    "id": "elsevier-13",
+    "name": "Radiotherapy and Oncology",
+    "publisher": "elsevier",
+    "url": "https://www.sciencedirect.com/science/journal/01678140"
+  },
+  {
+    "id": "elsevier-14",
+    "name": "Computerized Medical Imaging and Graphics",
+    "publisher": "elsevier",
+    "url": "https://www.sciencedirect.com/science/journal/08956111"
+  },
+  {
+    "id": "elsevier-15",
+    "name": "Journal of Cardiovascular Computed Tomography",
+    "publisher": "elsevier",
+    "url": "https://www.sciencedirect.com/science/journal/19345925"
+  },
+  {
+    "id": "elsevier-16",
+    "name": "NeuroImage",
+    "publisher": "elsevier",
+    "url": "https://www.sciencedirect.com/science/journal/10538119"
+  },
+  {
+    "id": "elsevier-17",
+    "name": "Journal of the American College of Radiology",
+    "publisher": "elsevier",
+    "url": "https://www.sciencedirect.com/science/journal/15461440"
+  },
+  {
+    "id": "elsevier-18",
+    "name": "Journal of Cardiovascular Magnetic Resonance",
+    "publisher": "elsevier",
+    "url": "https://www.journalofcmr.com/"
+  },
+  {
+    "id": "elsevier-19",
+    "name": "International Journal of Medical Informatics",
+    "publisher": "elsevier",
+    "url": "https://www.sciencedirect.com/science/journal/13865056"
+  },
+  {
+    "id": "elsevier-20",
+    "name": "Academic Radiology",
+    "publisher": "elsevier",
+    "url": "https://www.sciencedirect.com/science/journal/10766332"
+  },
+  {
+    "id": "elsevier-21",
+    "name": "NeuroImage: Clinical",
+    "publisher": "elsevier",
+    "url": "https://www.journals.elsevier.com/neuroimage-clinical"
+  },
+  {
+    "id": "elsevier-22",
+    "name": "European Journal of Radiology",
+    "publisher": "elsevier",
+    "url": "https://www.sciencedirect.com/science/journal/0720048X"
+  },
+  {
+    "id": "elsevier-23",
+    "name": "Journal of Electromyography and Kinesiology",
+    "publisher": "elsevier",
+    "url": "https://www.sciencedirect.com/science/journal/10506411"
+  },
+  {
+    "id": "elsevier-24",
+    "name": "Journal of Biomedical Informatics",
+    "publisher": "elsevier",
+    "url": "https://www.sciencedirect.com/science/journal/15320464"
+  },
+  {
+    "id": "elsevier-25",
+    "name": "Biomedical Signal Processing and Control",
+    "publisher": "elsevier",
+    "url": "https://www.sciencedirect.com/science/journal/17468094"
+  },
+  {
+    "id": "elsevier-26",
+    "name": "Biocybernetics and Biomedical Engineering",
+    "publisher": "elsevier",
+    "url": "https://www.sciencedirect.com/science/journal/02085216"
+  },
+  {
+    "id": "elsevier-27",
+    "name": "Journal of the Mechanical Behavior of Biomedical Materials",
+    "publisher": "elsevier",
+    "url": "https://www.sciencedirect.com/science/journal/17516161"
+  },
+  {
+    "id": "elsevier-28",
+    "name": "Regenerative Therapy",
+    "publisher": "elsevier",
+    "url": "https://www.sciencedirect.com/journal/regenerative-therapy"
+  },
+  {
+    "id": "elsevier-29",
+    "name": "Current Opinion in Biomedical Engineering",
+    "publisher": "elsevier",
+    "url": "https://www.sciencedirect.com/science/journal/24684511"
+  },
+  {
+    "id": "elsevier-30",
+    "name": "Journal of Biomechanics",
+    "publisher": "elsevier",
+    "url": "https://www.sciencedirect.com/science/journal/00219290"
+  },
+  {
+    "id": "elsevier-31",
+    "name": "Ultrasound in Medicine & Biology",
+    "publisher": "elsevier",
+    "url": "https://www.sciencedirect.com/science/journal/03015629"
+  },
+  {
+    "id": "elsevier-32",
+    "name": "Gait & Posture",
+    "publisher": "elsevier",
+    "url": "https://www.sciencedirect.com/science/journal/09666362"
+  },
+  {
+    "id": "elsevier-33",
+    "name": "Physica Medica",
+    "publisher": "elsevier",
+    "url": "https://www.sciencedirect.com/science/journal/11201797"
+  },
+  {
+    "id": "elsevier-34",
+    "name": "Clinical Imaging",
+    "publisher": "elsevier",
+    "url": "https://www.sciencedirect.com/science/journal/08997071"
+  },
+  {
+    "id": "elsevier-35",
+    "name": "Magnetic Resonance Imaging",
+    "publisher": "elsevier",
+    "url": "https://www.sciencedirect.com/science/journal/0730725X"
+  },
+  {
+    "id": "elsevier-36",
+    "name": "IRBM",
+    "publisher": "elsevier",
+    "url": "https://www.sciencedirect.com/journal/irbm"
+  },
+  {
+    "id": "elsevier-37",
+    "name": "Clinical Biomechanics",
+    "publisher": "elsevier",
+    "url": "https://www.sciencedirect.com/science/journal/02680033"
+  },
+  {
+    "id": "wiley-1",
+    "name": "Advanced Healthcare Materials",
+    "publisher": "wiley",
+    "url": "https://advanced.onlinelibrary.wiley.com/journal/21922659"
+  },
+  {
+    "id": "wiley-2",
+    "name": "Bioengineering & Translational Medicine",
+    "publisher": "wiley",
+    "url": "https://aiche.onlinelibrary.wiley.com/journal/23806761"
+  },
+  {
+    "id": "wiley-3",
+    "name": "Ultrasound in Obstetrics & Gynecology",
+    "publisher": "wiley",
+    "url": "https://obgyn.onlinelibrary.wiley.com/journal/14690705"
+  },
+  {
+    "id": "wiley-4",
+    "name": "Journal of Magnetic Resonance Imaging",
+    "publisher": "wiley",
+    "url": "https://onlinelibrary.wiley.com/journal/15222586"
+  },
+  {
+    "id": "wiley-5",
+    "name": "Human Brain Mapping",
+    "publisher": "wiley",
+    "url": "https://onlinelibrary.wiley.com/journal/10970193"
+  },
+  {
+    "id": "wiley-6",
+    "name": "Biometrical Journal",
+    "publisher": "wiley",
+    "url": "https://onlinelibrary.wiley.com/journal/15214036"
+  },
+  {
+    "id": "wiley-7",
+    "name": "Statistics in Medicine",
+    "publisher": "wiley",
+    "url": "https://onlinelibrary.wiley.com/journal/10970258"
+  },
+  {
+    "id": "wiley-8",
+    "name": "Biotechnology and Bioengineering",
+    "publisher": "wiley",
+    "url": "https://analyticalsciencejournals.onlinelibrary.wiley.com/journal/10970290"
+  },
+  {
+    "id": "wiley-9",
+    "name": "Journal of Biomedical Materials Research Part A",
+    "publisher": "wiley",
+    "url": "https://onlinelibrary.wiley.com/journal/15524965"
+  },
+  {
+    "id": "wiley-10",
+    "name": "Biotechnology Journal",
+    "publisher": "wiley",
+    "url": "https://analyticalsciencejournals.onlinelibrary.wiley.com/journal/18607314"
+  },
+  {
+    "id": "wiley-11",
+    "name": "Medical Physics",
+    "publisher": "wiley",
+    "url": "https://aapm.onlinelibrary.wiley.com/journal/24734209"
+  },
+  {
+    "id": "wiley-12",
+    "name": "Magnetic Resonance in Medicine",
+    "publisher": "wiley",
+    "url": "https://onlinelibrary.wiley.com/journal/15222594"
+  },
+  {
+    "id": "wiley-13",
+    "name": "Advanced Therapeutics",
+    "publisher": "wiley",
+    "url": "https://advanced.onlinelibrary.wiley.com/journal/23663987"
+  },
+  {
+    "id": "wiley-14",
+    "name": "International Journal of Imaging Systems and Technology",
+    "publisher": "wiley",
+    "url": "https://onlinelibrary.wiley.com/journal/10981098"
+  },
+  {
+    "id": "wiley-15",
+    "name": "NMR in Biomedicine",
+    "publisher": "wiley",
+    "url": "https://analyticalsciencejournals.onlinelibrary.wiley.com/journal/10991492"
+  },
+  {
+    "id": "wiley-16",
+    "name": "Journal of Applied Clinical Medical Physics",
+    "publisher": "wiley",
+    "url": "https://aapm.onlinelibrary.wiley.com/journal/15269914"
+  },
+  {
+    "id": "wiley-17",
+    "name": "Journal of Neuroimaging",
+    "publisher": "wiley",
+    "url": "https://onlinelibrary.wiley.com/journal/15526569"
+  },
+  {
+    "id": "wiley-18",
+    "name": "The International Journal of Medical Robotics and Computer Assisted Surgery",
+    "publisher": "wiley",
+    "url": "https://onlinelibrary.wiley.com/journal/1478596x"
+  },
+  {
+    "id": "wiley-19",
+    "name": "Artificial Organs",
+    "publisher": "wiley",
+    "url": "https://onlinelibrary.wiley.com/journal/15251594"
+  },
+  {
+    "id": "wiley-20",
+    "name": "International Journal for Numerical Methods in Biomedical Engineering",
+    "publisher": "wiley",
+    "url": "https://onlinelibrary.wiley.com/journal/20407947"
+  },
+  {
+    "id": "wiley-21",
+    "name": "Journal of Ultrasound in Medicine",
+    "publisher": "wiley",
+    "url": "https://onlinelibrary.wiley.com/journal/15509613"
+  },
+  {
+    "id": "wiley-22",
+    "name": "Lasers in Surgery and Medicine",
+    "publisher": "wiley",
+    "url": "https://onlinelibrary.wiley.com/journal/10969101"
+  },
+  {
+    "id": "wiley-23",
+    "name": "Pharmaceutical Statistics",
+    "publisher": "wiley",
+    "url": "https://onlinelibrary.wiley.com/journal/15391612"
+  },
+  {
+    "id": "wiley-24",
+    "name": "Journal of Biomedical Materials Research Part B: Applied Biomaterials",
+    "publisher": "wiley",
+    "url": "https://onlinelibrary.wiley.com/journal/15524981"
+  },
+  {
+    "id": "wiley-25",
+    "name": "Biotechnology Progress",
+    "publisher": "wiley",
+    "url": "https://aiche.onlinelibrary.wiley.com/journal/15206033"
+  },
+  {
+    "id": "wiley-26",
+    "name": "Journal of Tissue Engineering and Regenerative Medicine",
+    "publisher": "wiley",
+    "url": "https://onlinelibrary.wiley.com/journal/jterm"
+  },
+  {
+    "id": "wiley-27",
+    "name": "Journal of Biophotonics",
+    "publisher": "wiley",
+    "url": "https://onlinelibrary.wiley.com/journal/18640648"
+  },
+  {
+    "id": "wiley-28",
+    "name": "Journal of Microscopy",
+    "publisher": "wiley",
+    "url": "https://onlinelibrary.wiley.com/journal/13652818"
+  },
+  {
+    "id": "wiley-29",
+    "name": "Bioelectromagnetics",
+    "publisher": "wiley",
+    "url": "https://onlinelibrary.wiley.com/journal/1521186x"
+  },
+  {
+    "id": "wiley-30",
+    "name": "Journal of Medical Imaging and Radiation Oncology",
+    "publisher": "wiley",
+    "url": "https://onlinelibrary.wiley.com/journal/17549485"
+  },
+  {
+    "id": "wiley-31",
+    "name": "Journal of Clinical Ultrasound",
+    "publisher": "wiley",
+    "url": "https://obgyn.onlinelibrary.wiley.com/journal/10970096"
+  },
+  {
+    "id": "wiley-32",
+    "name": "Clinical Physiology and Functional Imaging",
+    "publisher": "wiley",
+    "url": "https://onlinelibrary.wiley.com/journal/1475097x"
+  },
+  {
+    "id": "wiley-33",
+    "name": "Annals of Noninvasive Electrocardiology",
+    "publisher": "wiley",
+    "url": "https://onlinelibrary.wiley.com/journal/1542474x"
+  },
+  {
+    "id": "ieee-1",
+    "name": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+    "publisher": "ieee",
+    "url": "https://www.computer.org/digital-library/journals/tp"
+  },
+  {
+    "id": "ieee-2",
+    "name": "IEEE Reviews in Biomedical Engineering",
+    "publisher": "ieee",
+    "url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4664312"
+  },
+  {
+    "id": "ieee-3",
+    "name": "IEEE Transactions on Image Processing",
+    "publisher": "ieee",
+    "url": "https://signalprocessingsociety.org/publications-resources/ieee-transactions-image-processing"
+  },
+  {
+    "id": "ieee-4",
+    "name": "IEEE Transactions on Medical Imaging",
+    "publisher": "ieee",
+    "url": "https://ieeetmi.org/"
+  },
+  {
+    "id": "ieee-5",
+    "name": "IEEE Transactions on Affective Computing",
+    "publisher": "ieee",
+    "url": "https://www.computer.org/digital-library/journals/ta"
+  },
+  {
+    "id": "ieee-6",
+    "name": "IEEE Transactions on Robotics",
+    "publisher": "ieee",
+    "url": "https://www.ieee-ras.org/Publications/T-RO/"
+  },
+  {
+    "id": "ieee-7",
+    "name": "IEEE Transactions on Neural Networks and Learning Systems",
+    "publisher": "ieee",
+    "url": "https://cis.ieee.org/ieee-transactions-on-neural-networks-and-learning-systems.html"
+  },
+  {
+    "id": "ieee-8",
+    "name": "IEEE Journal of Biomedical and Health Informatics",
+    "publisher": "ieee",
+    "url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221020"
+  },
+  {
+    "id": "ieee-9",
+    "name": "IEEE Transactions on Instrumentation and Measurement",
+    "publisher": "ieee",
+    "url": "https://ieee-ims.org/publication/ieee-tim"
+  },
+  {
+    "id": "ieee-10",
+    "name": "IEEE Transactions on Visualization and Computer Graphics",
+    "publisher": "ieee",
+    "url": "https://www.computer.org/digital-library/journals/tg"
+  },
+  {
+    "id": "ieee-11",
+    "name": "IEEE Transactions on Neural Systems and Rehabilitation Engineering",
+    "publisher": "ieee",
+    "url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7333"
+  },
+  {
+    "id": "ieee-12",
+    "name": "IEEE Transactions on Signal Processing",
+    "publisher": "ieee",
+    "url": "https://signalprocessingsociety.org/publications-resources/ieee-transactions-signal-processing"
+  },
+  {
+    "id": "ieee-13",
+    "name": "IEEE Transactions on NanoBioscience",
+    "publisher": "ieee",
+    "url": "https://ieeenano.org/publications/t-nb/"
+  },
+  {
+    "id": "ieee-14",
+    "name": "IEEE Transactions on Ultrasonics",
+    "publisher": "ieee",
+    "url": "https://ieee-uffc.org/publication/t-uson"
+  },
+  {
+    "id": "ieee-15",
+    "name": "IEEE Transactions on Emerging Topics in Computational Intelligence",
+    "publisher": "ieee",
+    "url": "https://cis.ieee.org/ieee-transactions-on-emerging-topics-in-computational-intelligence.html"
+  },
+  {
+    "id": "ieee-16",
+    "name": "IEEE Robotics and Automation Letters",
+    "publisher": "ieee",
+    "url": "https://www.ieee-ras.org/publications/ieee-robotics-and-automation-letters/"
+  },
+  {
+    "id": "ieee-17",
+    "name": "IEEE Transactions on Biomedical Circuits and Systems",
+    "publisher": "ieee",
+    "url": "https://ieee-cas.org/publication/TBioCAS"
+  },
+  {
+    "id": "ieee-18",
+    "name": "IEEE Transactions on Computational Imaging",
+    "publisher": "ieee",
+    "url": "https://signalprocessingsociety.org/publications-resources/ieee-transactions-computational-imaging"
+  },
+  {
+    "id": "ieee-19",
+    "name": "IEEE Sensors Journal",
+    "publisher": "ieee",
+    "url": "https://ieee-sensors.org/ieee-sensors-journal/"
+  },
+  {
+    "id": "ieee-20",
+    "name": "IEEE Transactions on Biomedical Engineering",
+    "publisher": "ieee",
+    "url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10"
+  },
+  {
+    "id": "ieee-21",
+    "name": "IEEE Transactions on Human-Machine Systems",
+    "publisher": "ieee",
+    "url": "https://www.ieeesmc.org/publications/transactions-on-human-machine-systems/"
+  },
+  {
+    "id": "ieee-22",
+    "name": "IEEE Access",
+    "publisher": "ieee",
+    "url": "https://ieeeaccess.ieee.org/"
+  },
+  {
+    "id": "ieee-23",
+    "name": "IEEE Transactions on Computational Biology and Bioinformatics",
+    "publisher": "ieee",
+    "url": "https://www.computer.org/digital-library/journals/bb"
+  },
+  {
+    "id": "ieee-24",
+    "name": "IEEE Journal of Translational Engineering in Health and Medicine",
+    "publisher": "ieee",
+    "url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221039"
+  },
+  {
+    "id": "ieee-25",
+    "name": "IEEE Signal Processing Letters",
+    "publisher": "ieee",
+    "url": "https://signalprocessingsociety.org/publications-resources/ieee-signal-processing-letters"
+  },
+  {
+    "id": "ieee-26",
+    "name": "Journal of Microelectromechanical Systems",
+    "publisher": "ieee",
+    "url": "https://eds.ieee.org/publications/journal-of-microelectromechanical-systems"
+  },
+  {
+    "id": "ieee-27",
+    "name": "IEEE Transactions on Haptics",
+    "publisher": "ieee",
+    "url": "https://www.ieee-ras.org/publications/toh/"
+  },
+  {
+    "id": "ieee-28",
+    "name": "IEEE Photonics Journal",
+    "publisher": "ieee",
+    "url": "https://ieeephotonics.org/publications/photonics-journal/"
+  },
+  {
+    "id": "ieee-29",
+    "name": "IEEE Transactions on Nanotechnology",
+    "publisher": "ieee",
+    "url": "https://ieeenano.org/publications/t-nano/"
+  },
+  {
+    "id": "ieee-30",
+    "name": "IEEE Transactions on Nuclear Science",
+    "publisher": "ieee",
+    "url": "https://ieee-npss.org/publications/transactions-on-nuclear-science/"
+  },
+  {
+    "id": "iop-1",
+    "name": "Biofabrication",
+    "publisher": "iop",
+    "url": "https://iopscience.iop.org/journal/1758-5090"
+  },
+  {
+    "id": "iop-2",
+    "name": "Machine Learning: Science and Technology",
+    "publisher": "iop",
+    "url": "https://iopscience.iop.org/journal/2632-2153"
+  },
+  {
+    "id": "iop-3",
+    "name": "Measurement Science and Technology",
+    "publisher": "iop",
+    "url": "https://iopscience.iop.org/journal/0957-0233"
+  },
+  {
+    "id": "iop-4",
+    "name": "Bioinspiration & Biomimetics",
+    "publisher": "iop",
+    "url": "https://iopscience.iop.org/journal/1748-3190"
+  },
+  {
+    "id": "iop-5",
+    "name": "Inverse Problems",
+    "publisher": "iop",
+    "url": "https://iopscience.iop.org/journal/0266-5611"
+  },
+  {
+    "id": "iop-6",
+    "name": "Journal of Neural Engineering",
+    "publisher": "iop",
+    "url": "https://iopscience.iop.org/journal/1741-2552"
+  },
+  {
+    "id": "iop-7",
+    "name": "Biomedical Materials",
+    "publisher": "iop",
+    "url": "https://iopscience.iop.org/journal/1748-605X"
+  },
+  {
+    "id": "iop-8",
+    "name": "Smart Materials and Structures",
+    "publisher": "iop",
+    "url": "https://iopscience.iop.org/journal/0964-1726"
+  },
+  {
+    "id": "iop-9",
+    "name": "Journal of Physics D: Applied Physics",
+    "publisher": "iop",
+    "url": "https://iopscience.iop.org/journal/0022-3727"
+  },
+  {
+    "id": "iop-10",
+    "name": "Physics in Medicine & Biology",
+    "publisher": "iop",
+    "url": "https://iopscience.iop.org/journal/0031-9155"
+  },
+  {
+    "id": "iop-11",
+    "name": "Journal of Breath Research",
+    "publisher": "iop",
+    "url": "https://iopscience.iop.org/journal/1752-7163"
+  },
+  {
+    "id": "iop-12",
+    "name": "Methods and Applications in Fluorescence",
+    "publisher": "iop",
+    "url": "https://iopscience.iop.org/journal/2050-6120"
+  },
+  {
+    "id": "iop-13",
+    "name": "Nanotechnology",
+    "publisher": "iop",
+    "url": "https://iopscience.iop.org/journal/0957-4484"
+  },
+  {
+    "id": "iop-14",
+    "name": "Journal of Optics",
+    "publisher": "iop",
+    "url": "https://iopscience.iop.org/journal/2040-8986"
+  },
+  {
+    "id": "iop-15",
+    "name": "Journal of Micromechanics and Microengineering",
+    "publisher": "iop",
+    "url": "https://iopscience.iop.org/journal/0960-1317"
+  },
+  {
+    "id": "iop-16",
+    "name": "Physiological Measurement",
+    "publisher": "iop",
+    "url": "https://iopscience.iop.org/journal/0967-3334"
+  },
+  {
+    "id": "iop-17",
+    "name": "Medical Engineering & Physics",
+    "publisher": "iop",
+    "url": "https://www.sciencedirect.com/science/journal/13504533"
+  },
+  {
+    "id": "iop-18",
+    "name": "Journal of Radiological Protection",
+    "publisher": "iop",
+    "url": "https://iopscience.iop.org/journal/0952-4746"
+  },
+  {
+    "id": "iop-19",
+    "name": "Physical Biology",
+    "publisher": "iop",
+    "url": "https://iopscience.iop.org/journal/1478-3975"
+  },
+  {
+    "id": "taylor-francis-1",
+    "name": "International Journal of Nanomedicine",
+    "publisher": "taylor-francis",
+    "url": "https://www.dovepress.com/international-journal-of-nanomedicine-journal"
+  },
+  {
+    "id": "taylor-francis-2",
+    "name": "Artificial Cells, Nanomedicine, and Biotechnology",
+    "publisher": "taylor-francis",
+    "url": "https://www.tandfonline.com/journals/ianb20"
+  },
+  {
+    "id": "taylor-francis-3",
+    "name": "Expert Review of Molecular Diagnostics",
+    "publisher": "taylor-francis",
+    "url": "https://www.tandfonline.com/journals/iero20"
+  },
+  {
+    "id": "taylor-francis-4",
+    "name": "Nanomedicine",
+    "publisher": "taylor-francis",
+    "url": "https://www.tandfonline.com/journals/innm20"
+  },
+  {
+    "id": "taylor-francis-5",
+    "name": "Journal of Biomaterials Science, Polymer Edition",
+    "publisher": "taylor-francis",
+    "url": "https://www.tandfonline.com/journals/tbsp20"
+  },
+  {
+    "id": "taylor-francis-6",
+    "name": "International Journal of Polymeric Materials and Polymeric Biomaterials",
+    "publisher": "taylor-francis",
+    "url": "https://www.tandfonline.com/journals/gpom20"
+  },
+  {
+    "id": "taylor-francis-7",
+    "name": "International Journal of Hyperthermia",
+    "publisher": "taylor-francis",
+    "url": "https://www.tandfonline.com/journals/ihyt20"
+  },
+  {
+    "id": "taylor-francis-8",
+    "name": "Journal of Biological Dynamics",
+    "publisher": "taylor-francis",
+    "url": "https://www.tandfonline.com/journals/tjbd20"
+  },
+  {
+    "id": "taylor-francis-9",
+    "name": "Biofouling",
+    "publisher": "taylor-francis",
+    "url": "https://www.tandfonline.com/journals/gbif20"
+  },
+  {
+    "id": "taylor-francis-10",
+    "name": "Computer Assisted Surgery",
+    "publisher": "taylor-francis",
+    "url": "https://www.tandfonline.com/journals/icsu20"
+  },
+  {
+    "id": "taylor-francis-11",
+    "name": "Journal of Biopharmaceutical Statistics",
+    "publisher": "taylor-francis",
+    "url": "https://www.tandfonline.com/journals/lbps20"
+  },
+  {
+    "id": "taylor-francis-12",
+    "name": "Expert Review of Medical Devices",
+    "publisher": "taylor-francis",
+    "url": "https://www.tandfonline.com/journals/ierd20"
+  },
+  {
+    "id": "taylor-francis-13",
+    "name": "Journal of Biomolecular Structure and Dynamics",
+    "publisher": "taylor-francis",
+    "url": "https://www.tandfonline.com/journals/tbsd20"
+  },
+  {
+    "id": "taylor-francis-14",
+    "name": "Computer Methods in Biomechanics and Biomedical Engineering",
+    "publisher": "taylor-francis",
+    "url": "https://www.tandfonline.com/journals/gcmb20"
+  },
+  {
+    "id": "taylor-francis-15",
+    "name": "Informatics for Health and Social Care",
+    "publisher": "taylor-francis",
+    "url": "https://www.tandfonline.com/journals/imif20"
+  },
+  {
+    "id": "taylor-francis-16",
+    "name": "Electromagnetic Biology and Medicine",
+    "publisher": "taylor-francis",
+    "url": "https://www.tandfonline.com/journals/iebm20"
+  }
+]

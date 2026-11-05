@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Diagnostic and Interventional Imaging",
+    "source": "https://www.em-consulte.com/revue/DII/presentation/diagnostic-and-interventional-imaging",
+    "links": []
+  },
+  {
+    "name": "Materials Today Bio",
+    "source": "https://www.elsevier.com/subject/materials-today/submit",
+    "links": [
+      "https://www.sciencedirect.com/journal/applied-materials-today",
+      "https://www.sciencedirect.com/journal/computational-materials-today",
+      "https://www.sciencedirect.com/journal/materials-today",
+      "https://www.sciencedirect.com/journal/materials-today-advances",
+      "https://www.sciencedirect.com/journal/materials-today-bio",
+      "https://www.sciencedirect.com/journal/materials-today-catalysis",
+      "https://www.sciencedirect.com/journal/materials-today-chemistry",
+      "https://www.sciencedirect.com/journal/materials-today-communications",
+      "https://www.sciencedirect.com/journal/materials-today-electronics",
+      "https://www.sciencedirect.com/journal/materials-today-energy",
+      "https://www.sciencedirect.com/journal/materials-today-nano",
+      "https://www.sciencedirect.com/journal/materials-today-physics",
+      "https://www.sciencedirect.com/journal/materials-today-quantum",
+      "https://www.sciencedirect.com/journal/materials-today-sustainability"
+    ]
+  },
+  {
+    "name": "Photoacoustics",
+    "source": "https://www.elsevier.com/subject/physics-and-astronomy/journals/open-access-for-physics-journals",
+    "links": [
+      "https://www.sciencedirect.com/journal/photoacoustics/articles-in-press",
+      "https://www.sciencedirect.com/journal/physics-in-medicine/articles-in-press",
+      "https://www.sciencedirect.com/journal/physics-letters-b/articles-in-press",
+      "https://www.sciencedirect.com/journal/results-in-physics/articles-in-press",
+      "https://www.sciencedirect.com/journal/reviews-in-physics/articles-in-press",
+      "https://www.sciencedirect.com/journal/softwarex/articles-in-press"
+    ]
+  },
+  {
+    "name": "Journal of Cardiovascular Magnetic Resonance",
+    "source": "https://www.journalofcmr.com/",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "NeuroImage: Clinical",
+    "source": "https://shop.elsevier.com/journals/neuroimage/1053-8119",
+    "links": [
+      "https://www.sciencedirect.com/journal/neuroimage-stroke",
+      "https://www.sciencedirect.com/journal/neuroimage/publish/guide-for-authors",
+      "https://www.sciencedirect.com/science/journal/10538119"
+    ]
+  },
+  {
+    "name": "Regenerative Therapy",
+    "source": "https://en.jsrm.jp/about-us/journals/",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+  },
+  {
+    "name": "IRBM",
+    "source": "https://www.em-consulte.com/revue/IRBM/presentation/irbm",
+    "links": [
+      "https://www.sciencedirect.com/special-issue/106CCPVH6TG"
+    ]
+  }
+]
