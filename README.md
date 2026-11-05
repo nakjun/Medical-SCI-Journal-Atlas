@@ -2,9 +2,10 @@
 
 ## 🌐 [실제 서비스 바로가기 → medical-journal-atlas.netlify.app](https://medical-journal-atlas.netlify.app/)
 
-**의료·바이오·의공학·의료 AI 연구자를 위한 저널 비교 웹사이트**입니다. 출판사별 저널의 Impact Factor, JCR Quartile, 게재료와 연구 주제를 한곳에서 비교할 수 있습니다.
-
-React와 Vite로 만든 정적 웹사이트이며, 별도의 서버·로그인·API 키 없이 이용할 수 있습니다.
+- 의료·바이오·의공학·의료 AI 연구자용 저널 비교 서비스
+- IF·JCR Quartile·게재료·연구 주제 비교
+- React·Vite 기반 정적 웹사이트
+- 별도 서버·로그인·API 키 불필요
 
 ## 주요 기능
 
@@ -34,7 +35,8 @@ React와 Vite로 만든 정적 웹사이트이며, 별도의 서버·로그인·
 
 ## 로컬 실행
 
-Node.js **22.12 이상**과 npm을 권장합니다. 현재 검증 환경은 Node.js 24입니다.
+- 권장 환경: Node.js 22.12 이상 + npm
+- 검증 환경: Node.js 24
 
 ```bash
 git clone https://github.com/nakjun/Medical-SCI-Journal-Atlas.git
@@ -43,7 +45,7 @@ npm ci
 npm run dev -- --port 5173 --strictPort
 ```
 
-브라우저에서 [http://127.0.0.1:5173](http://127.0.0.1:5173)을 엽니다.
+- 로컬 주소: [http://127.0.0.1:5173](http://127.0.0.1:5173)
 
 ## 테스트 및 빌드
 
@@ -53,19 +55,21 @@ npm run build
 npm run preview
 ```
 
-- `npm test`: 데이터·출판사 분류·필터·정렬·출처 연결 등을 확인합니다.
-- `npm run build`: 배포용 `dist/` 폴더를 생성합니다.
-- `npm run preview`: 생성된 빌드를 로컬 HTTP 서버로 확인합니다.
+- `npm test`: 데이터·필터·정렬·출처 연결 검증
+- `npm run build`: 배포용 `dist/` 생성
+- `npm run preview`: 빌드 결과 로컬 미리보기
 
-`dist/index.html`을 파일로 직접 열기보다 HTTP 서버로 확인하세요. `dist/`와 `node_modules/`는 Git에 포함하지 않습니다.
+- 미리보기: HTTP 서버 사용
+- Git 제외: `dist/`, `node_modules/`
 
 ## Netlify 배포
 
-**운영 주소: [https://medical-journal-atlas.netlify.app/](https://medical-journal-atlas.netlify.app/)**
+- 운영 주소: [medical-journal-atlas.netlify.app](https://medical-journal-atlas.netlify.app/)
 
 ### Git 연동 배포
 
-기존 Netlify 사이트에 이 저장소를 연결하고 다음 설정을 사용합니다. 저장소의 `netlify.toml`에도 같은 설정이 포함되어 있습니다.
+- 기존 Netlify 사이트에 GitHub 저장소 연결
+- 빌드 설정: `netlify.toml`
 
 | 항목 | 설정 |
 |---|---|
@@ -75,11 +79,12 @@ npm run preview
 | Publish directory | `dist` |
 | Node.js | `24` |
 
-GitHub에 push하는 것과 Netlify의 Git 연동 설정은 별개입니다. Netlify에서 저장소 연결이 완료된 경우 이후 push 시 자동 빌드·배포할 수 있습니다.
+- 저장소 연결 후 `main` push 시 자동 빌드·배포
 
 ### 수동 배포
 
-`npm ci` → `npm run build` 실행 후, 생성된 **`dist` 폴더**를 기존 Netlify 사이트의 수동 배포 영역에 업로드합니다.
+- `npm ci` → `npm run build` 실행
+- 생성된 `dist` 폴더를 Netlify에 업로드
 
 ## 프로젝트 구조
 
@@ -102,23 +107,26 @@ netlify.toml                 # Netlify 빌드 설정
 
 ## 데이터 유지보수
 
-1. 기존 출판사 데이터는 `src/data.js`, 추가 저널은 `src/research-additions.js`에서 관리합니다.
-2. JMIR·PLOS 상세 지표는 `docs/research/jmir-plos-metrics-2026-11-05.json`에서 덮어씁니다. 해당 저널 수정 시 이 파일도 확인하세요.
-3. 저널별 공식 URL, 한국어 주제, 확인일과 지표의 출처·기준 연도를 기록합니다.
-4. `id`는 북마크와 조사 기록 연결에 사용하므로 변경하지 않습니다.
-5. 알 수 없는 IF를 `0`으로 넣지 않습니다. 숫자형 IF가 있는 저널만 화면에 노출됩니다.
-6. `npm test`와 `npm run build`로 검증합니다. 수록 범위 변경 시 테스트와 README의 개수도 함께 갱신합니다.
+- 기존 저널: `src/data.js`
+- 추가 저널: `src/research-additions.js`
+- JMIR·PLOS 지표: `docs/research/jmir-plos-metrics-2026-11-05.json`
+- 공식 URL·주제·출처·확인일 갱신
+- 저널 `id` 유지
+- IF 미확인 값: `null` 처리, 목록 제외
+- 변경 후 `npm test`·`npm run build` 실행
+- 수록 개수 변경 시 테스트·README 갱신
 
 ## 기술 및 디자인
 
 - React 19 / Vite 6 / Lucide React
 - 한신대학교 홈페이지의 보라색 계열을 참고한 색상 구성: `#5C31C0`, `#241055`, `#756AB7`
 - 밝은 배경과 비교 표 중심의 정보 전달형 디자인
-- Google Fonts를 사용하며 연결할 수 없을 때 시스템 글꼴로 대체
+- Google Fonts 사용, 연결 불가 시 시스템 글꼴 적용
 
 ## 제작자
 
-**한신대학교 AI·SW대학 성낙준 (Nak-Jun Sung, Ph.D.)**
-GitHub: [@nakjun](https://github.com/nakjun)
+- **한신대학교 AI·SW대학 성낙준 (Nak-Jun Sung, Ph.D.)**
+- GitHub: [@nakjun](https://github.com/nakjun)
 
-오류나 업데이트 제안은 [GitHub Issues](https://github.com/nakjun/Medical-SCI-Journal-Atlas/issues)에 저널명과 확인 가능한 공식 출처를 함께 남겨 주세요.
+- 오류·업데이트 제안: [GitHub Issues](https://github.com/nakjun/Medical-SCI-Journal-Atlas/issues)
+- 제보 항목: 저널명·공식 출처
