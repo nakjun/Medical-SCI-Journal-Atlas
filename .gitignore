@@ -8,3 +8,23 @@ tmp/
 *.log
 .DS_Store
 Thumbs.db
+
+# Local deployment state and credentials
+.netlify/
+.vercel/
+.npmrc
+.pypirc
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+service-account*.json
+
+# Local editor settings and browser sessions
+.vscode/
+.idea/
+.auth/
+playwright/.auth/
+storage-state*.json
+storageState*.json
