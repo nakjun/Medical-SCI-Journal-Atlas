@@ -26,7 +26,9 @@ export default function TopicRecommendations({ saved, toggleSaved }) {
         method: 'POST', headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ topic: input.trim(), nonOaOnly }), signal: AbortSignal.timeout(30000),
       });
+      if (response.status === 404) throw new Error('AI 서버 함수 미배포 · Netlify에서 Git 저장소 연결 후 재배포 필요');
       if (response.status === 429) throw new Error('요청 한도 초과 · 잠시 후 다시 시도');
+      if (!response.headers.get('content-type')?.includes('application/json')) throw new Error('AI 서버 응답 형식 오류 · Netlify 함수 배포 상태 확인 필요');
       const data = await response.json();
       if (!response.ok) throw new Error(data.error || 'AI 연결 실패');
       if (!Array.isArray(data.recommendations) || !data.recommendations.every(row => journals.some(j => j.id === row.id))) throw new Error('AI 결과 확인 실패');
@@ -47,8 +49,8 @@ export default function TopicRecommendations({ saved, toggleSaved }) {
     {notice && <p className="recommend-note" role="status">{notice}</p>}
     {submitted && !busy && <div className="recommend-results" aria-live="polite">
       {aiResult && <p className="recommend-interpretation">{aiResult.interpretation}</p>}
-      <p className="recommend-summary">“{submitted}” · {results.length}개 추천{results.length < 10 && ' · 일치하는 저널만 표시'}</p>
-      {!results.length && <p>일치하는 저널 없음 · 분야 또는 연구 방법 키워드 추가</p>}
+      <p className="recommend-summary">“{submitted}” · {notice ? '기본 검색' : '추천'} {results.length}개{results.length < 10 && ' · 일치하는 저널만 표시'}</p>
+      {!results.length && <p>{notice ? 'AI 추천 미완료 · 기본 키워드 검색에서 일치 항목 없음' : '일치하는 저널 없음 · 분야 또는 연구 방법 키워드 추가'}</p>}
       <ol>{results.map(({ journal, matches, evidence, reason }, index) => <li key={journal.id} className="recommend-card">
         <span className="recommend-rank">{String(index + 1).padStart(2, '0')}</span>
         <div className="recommend-detail"><JournalName journal={journal} /><div className="recommend-meta">{publishers.find(p => p.id === journal.publisherId)?.name} · {journal.quartile} · IF {journal.impactFactor.toFixed(1)} · Non-OA {money(journal.nonOaApc)} · OA {money(journal.oaApc)}</div><p className="recommend-match">{reason ? `추천 이유: ${reason}` : `일치 키워드: ${matches.join(' · ')}`}</p>{evidence.length > 0 && <ul>{evidence.map(text => <li key={text}>{text}</li>)}</ul>}</div>
