@@ -25,6 +25,7 @@ function App() {
   const [sort, setSort] = useState('quartile-asc');
   const [saved, setSaved] = useState(readSaved);
   const [savedOnly, setSavedOnly] = useState(false);
+  const [activeView, setActiveView] = useState('directory');
   const [guide, setGuide] = useState(false);
   const [toast, setToast] = useState('');
   const searchRef = useRef(null);
@@ -48,7 +49,7 @@ function App() {
   }, [guide]);
   useEffect(() => {
     const handler = e => {
-      if (e.key === '/' && !['INPUT', 'TEXTAREA', 'SELECT'].includes(document.activeElement?.tagName) && !dialogRef.current?.open) {
+      if (e.key === '/' && !['INPUT', 'TEXTAREA', 'SELECT'].includes(document.activeElement?.tagName) && !dialogRef.current?.open && searchRef.current?.getClientRects().length) {
         e.preventDefault(); searchRef.current?.focus();
       }
     };
@@ -69,11 +70,15 @@ function App() {
   }
 
   return <>
-    <a className="skip-link" href="#journal-list">저널 목록으로 건너뛰기</a>
+    <a className="skip-link" href={activeView === 'recommendations' ? '#recommendations-panel' : '#journal-list'}>본문으로 건너뛰기</a>
     <header className="site-header">
       <div className="header-inner">
         <a className="brand" href="./" aria-label="Journal Atlas 홈"><span className="brand-mark"><BookOpen size={21} strokeWidth={1.8} /></span>journal<span className="brand-light">atlas</span><span className="brand-dot">.</span></a>
-        <nav className="main-nav" aria-label="주 메뉴"><button className={!savedOnly ? 'active' : ''} onClick={() => setSavedOnly(false)}>저널 둘러보기</button><button className={savedOnly ? 'active' : ''} onClick={() => setSavedOnly(true)}>저장한 저널 <span className="nav-count">{saved.length}</span></button></nav>
+        <nav className="main-nav" aria-label="주 메뉴">
+          <button className={activeView === 'directory' && !savedOnly ? 'active' : ''} aria-current={activeView === 'directory' && !savedOnly ? 'page' : undefined} onClick={() => { setActiveView('directory'); setSavedOnly(false); }}>저널 둘러보기</button>
+          <button className={activeView === 'recommendations' ? 'active' : ''} aria-current={activeView === 'recommendations' ? 'page' : undefined} onClick={() => setActiveView('recommendations')}>주제별 추천</button>
+          <button className={activeView === 'directory' && savedOnly ? 'active' : ''} aria-current={activeView === 'directory' && savedOnly ? 'page' : undefined} onClick={() => { setActiveView('directory'); setSavedOnly(true); }}>저장한 저널 <span className="nav-count">{saved.length}</span></button>
+        </nav>
         <button className="guide-button" onClick={() => setGuide(true)}><CircleHelp size={16} /><span>데이터 가이드</span><ArrowUpRight size={14} /></button>
       </div>
     </header>
@@ -85,7 +90,10 @@ function App() {
         <div className="catalog-meta"><span>JCR · IF 2025</span><span>OA APC 2026 · USD</span></div>
       </section>
 
-      <TopicRecommendations saved={saved} toggleSaved={toggleSaved} />
+      <div id="recommendations-panel" className="view-panel" hidden={activeView !== 'recommendations'} tabIndex={-1}>
+        <TopicRecommendations saved={saved} toggleSaved={toggleSaved} />
+      </div>
+      <div className="view-panel" hidden={activeView !== 'directory'}>
       <section className="workspace" aria-label="출판사별 저널 탐색">
         <div className="section-kicker"><LibraryBig size={15} /> PUBLISHER COLLECTIONS</div>
         <div className="publisher-tabs" role="tablist" aria-label="출판사 선택">{[allCollection, ...publishers].map(p => <button key={p.id} id={`tab-${p.id}`} role="tab" aria-selected={publisherId === p.id} aria-controls="publisher-panel" className={`publisher-tab ${publisherId === p.id ? 'selected' : ''}`} onClick={() => selectPublisher(p.id)}><span className={`publisher-monogram ${p.id}`}>{p.monogram}</span><span>{p.name}</span>{p.status === 'upcoming' ? <span className="coming-tag">준비 중</span> : <span className="publisher-count">{p.id === 'all' ? journals.length : journals.filter(j => j.publisherId === p.id).length}</span>}{publisherId === p.id && <span className="selected-dot" />}</button>)}<span className="publisher-hint"><Globe2 size={14} /> 출판사별로 살펴보세요</span></div>
@@ -113,6 +121,7 @@ function App() {
       </section>
 
       <aside className="data-note"><Info size={18} /><div><strong>데이터를 읽기 전에</strong><p>JCR Quartile·IF는 2025년, OA APC는 2026년 제공 자료 기준입니다. Non-OA의 ‘해당 없음’은 $0과 다릅니다. Q1*의 별표는 원문 표기를 유지했으며, 의미는 별도 확인이 필요합니다.</p><p>IF가 확인된 저널만 수록합니다. JMIR·PLOS 12개는 2025 JIF 및 JCR 2026 발표 Quartile을 반영했습니다. 게재료는 변경될 수 있으므로 최종 투고 전 해당 저널의 공식 안내를 확인하세요.</p></div><button onClick={() => setGuide(true)}>자세히 보기 <ChevronRight size={14} /></button></aside>
+      </div>
     </main>
     <footer><div className="footer-inner"><span className="footer-brand">journal atlas.</span><span className="footer-affiliation">한신대학교 AI·SW대학 성낙준(Nak-Jun Sung, Ph.D. / <a href="https://github.com/nakjun" target="_blank" rel="noopener noreferrer">https://github.com/nakjun</a>)</span><button onClick={() => setGuide(true)}>데이터 기준 및 디자인 레퍼런스 <ArrowUpRight size={12} /></button><span className="footer-year">© 2026 Journal Atlas</span></div></footer>
     <dialog ref={dialogRef} onCancel={() => setGuide(false)} onClick={e => { if (e.target === dialogRef.current) setGuide(false); }} aria-labelledby="guide-title"><div className="dialog-content"><div className="dialog-top"><span className="eyebrow">A NOTE ON THE DATA</span><button aria-label="가이드 닫기" onClick={() => setGuide(false)}><X size={20} /></button></div><h2 id="guide-title">데이터 가이드</h2><p>사용자 제공 175개와 추가 조사 저널 중 IF가 확인된 13개를 수록했습니다. 현재 {collectionSummary}, 총 {journals.length}개입니다. 공식 JCR 또는 출판사와 연동된 서비스가 아닙니다.</p><dl><dt>JCR Quartile / Impact Factor</dt><dd>기존 제공 표의 2025년 값은 유지합니다. 추가 조사한 JMIR·PLOS는 2025 JIF(JCR 2026 발표) 기준이며, 공식 출처·분야·예외는 저널 설명창에 표시합니다. 원본 제공 표와 조사 지표의 연도 정의가 다를 수 있으므로 출처를 확인하세요. Q1*도 Q1 필터와 통계에 포함하며, 별표의 의미는 제공 자료에 명시되지 않았습니다.</dd><dt>Non-OA APC / OA APC</dt><dd>Non-OA $0은 제공 표상 APC가 0달러라는 뜻입니다. ‘해당 없음’은 Non-OA 금액을 적용할 수 없는 항목입니다. OA APC는 2026년 USD 금액이며 세금·할인·계약 조건은 제공 자료에 없습니다.</dd><dt>저장 및 내보내기</dt><dd>북마크는 현재 브라우저에 저장됩니다. CSV에는 현재 컬렉션과 검색·필터 조건에 해당하는 결과 및 각 저널의 출판사 정보가 포함됩니다.</dd><dt>공식 페이지와 주요 연구 주제</dt><dd>저널명을 클릭하면 공식 저널 페이지가 새 탭으로 열립니다. 마우스를 올리거나 키보드로 포커스하면 주요 주제를 확인할 수 있으며, ⓘ 버튼으로 설명창을 열어둘 수도 있습니다. 주제는 출판사·학회의 공식 소개를 바탕으로 요약한 대표 항목이며 전체 투고 범위를 대체하지 않습니다. 각 설명창에 원문 출처와 각 저널의 확인일을 표시합니다.</dd><dt>출판사별 컬렉션</dt><dd>{collectionSummary} 저널을 수록했습니다. ‘전체 보기’에서 모든 저널을 비교하거나 출판사 탭으로 전환할 수 있습니다. Quartile은 Q1→Q4 또는 역순으로 정렬하며 같은 구간 안에서는 IF 높은 순으로 표시합니다. ‘Non-OA APC $0만 보기’ 버튼은 해당 없음 항목을 제외합니다. 검색·필터 결과는 CSV로 내보낼 수 있습니다.</dd><dt>디자인 레퍼런스</dt><dd><a href="https://www.hs.ac.kr/kor/index.do" target="_blank" rel="noreferrer">한신대학교 대표 홈페이지 <ArrowUpRight size={12} /></a><span>보라색 강조색 #5C31C0 · 짙은 보라색 #241055 · 보조색 #756AB7</span><a href="https://linear.app/now/behind-the-latest-design-refresh" target="_blank" rel="noreferrer">Linear — A calmer interface <ArrowUpRight size={12} /></a><span>정보 위계, 낮은 대비의 구분선, 일관된 탐색 구조</span><a href="https://www.nature.com/nature-portfolio" target="_blank" rel="noreferrer">Nature Portfolio <ArrowUpRight size={12} /></a><span>학술 출판물의 타이포그래피와 컬렉션 탐색 구조</span></dd></dl><button className="primary-button" onClick={() => setGuide(false)}>확인했습니다 <Check size={16} /></button></div></dialog>
