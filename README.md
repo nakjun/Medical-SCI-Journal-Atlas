@@ -5,13 +5,14 @@
 - 의료·바이오·의공학·의료 AI 연구자용 저널 비교 서비스
 - IF·JCR Quartile·게재료·연구 주제 비교
 - React·Vite 기반 정적 웹사이트
-- 별도 서버·로그인·API 키 불필요
+- 기본 탐색: API 키 불필요 · AI 추천: Netlify Functions + OpenAI API
 
 ## 주요 기능
 
 - 연구 주제별 TOP 10 추천: 한글·영문 키워드, 일치 주제·추천 근거 표시
 - 추천 결과 Non-OA APC $0 필터·북마크·공식 페이지 연결
-- 브라우저 내 키워드 매칭 · 입력 내용 외부 전송 없음
+- GPT-6 Luna로 태스크·연구 분야 해석 후 TOP 10 추천
+- AI 사용 시 입력 주제 OpenAI 전송 · AI 해제 또는 연결 실패 시 기본 키워드 검색
 
 - **전체 보기 및 출판사 탭**: Springer Nature → Elsevier → IEEE → Wiley → Taylor & Francis → IOP → JMIR → PLOS
 - **검색과 필터**: 저널명 검색, Q1–Q4 필터, Non-OA APC $0만 보기, OA 전용 저널 보기
@@ -85,10 +86,26 @@ npm run preview
 
 - 저장소 연결 후 `main` push 시 자동 빌드·배포
 
+### AI 추천 설정
+
+- Netlify 환경변수: `OPENAI_API_KEY` · Functions 범위 · Production 환경
+- 키 등록·변경 후 재배포
+- 기본 모델: `gpt-6-luna` · Responses API · 응답 저장 비활성화(`store: false`)
+- 함수 경로: `/.netlify/functions/recommend`
+- 요청 제한: IP·도메인 조합별 1분 5회(Netlify 배포 시 적용)
+- 결과 캐시: 서버 인스턴스별 10분·최대 100건 · 영구 저장 없음
+- 입력 2,000자·출력 최대 3,000토큰·API 대기 25초 제한
+- 로컬 AI 테스트: `.env.local`에 `OPENAI_API_KEY` 등록 후 개발 서버 재시작
+- Netlify 환경변수는 로컬 서버에 자동 동기화되지 않음
+- API 오류·키 미등록: 오류 안내와 기존 키워드 검색 결과 표시
+- 키는 Git·React 소스·`VITE_` 변수에 포함 금지
+- 호출 제한은 전체 지출 상한이 아님 · OpenAI 프로젝트 사용량 별도 관리
+
 ### 수동 배포
 
 - `npm ci` → `npm run build` 실행
-- 생성된 `dist` 폴더를 Netlify에 업로드
+- `dist` 폴더만 업로드 시 기본 검색만 지원
+- AI 추천 운영: Git 연동으로 서버 함수까지 함께 배포
 
 ## 프로젝트 구조
 
