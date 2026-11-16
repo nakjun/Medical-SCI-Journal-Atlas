@@ -4,6 +4,7 @@ import { ArrowDown, ArrowDownToLine, ArrowRight, ArrowUpRight, BookOpen, Bookmar
 import { filterJournals, journals, money, publishers, quartileOf } from './data';
 import './styles.css';
 import { JournalName, JournalTopicProvider } from './JournalTopics';
+import TopicRecommendations from './TopicRecommendations';
 
 const collectionSummary = publishers.map(p => `${p.name} ${journals.filter(j => j.publisherId === p.id).length}개`).join(', ');
 const allCollection = { id: 'all', name: '전체 보기', monogram: 'ALL', description: '모든 출판사의 저널을 한곳에서 검색하고 비교하세요.', status: 'available' };
@@ -84,6 +85,7 @@ function App() {
         <div className="catalog-meta"><span>JCR · IF 2025</span><span>OA APC 2026 · USD</span></div>
       </section>
 
+      <TopicRecommendations saved={saved} toggleSaved={toggleSaved} />
       <section className="workspace" aria-label="출판사별 저널 탐색">
         <div className="section-kicker"><LibraryBig size={15} /> PUBLISHER COLLECTIONS</div>
         <div className="publisher-tabs" role="tablist" aria-label="출판사 선택">{[allCollection, ...publishers].map(p => <button key={p.id} id={`tab-${p.id}`} role="tab" aria-selected={publisherId === p.id} aria-controls="publisher-panel" className={`publisher-tab ${publisherId === p.id ? 'selected' : ''}`} onClick={() => selectPublisher(p.id)}><span className={`publisher-monogram ${p.id}`}>{p.monogram}</span><span>{p.name}</span>{p.status === 'upcoming' ? <span className="coming-tag">준비 중</span> : <span className="publisher-count">{p.id === 'all' ? journals.length : journals.filter(j => j.publisherId === p.id).length}</span>}{publisherId === p.id && <span className="selected-dot" />}</button>)}<span className="publisher-hint"><Globe2 size={14} /> 출판사별로 살펴보세요</span></div>

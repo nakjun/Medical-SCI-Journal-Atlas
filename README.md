@@ -9,6 +9,10 @@
 
 ## 주요 기능
 
+- 연구 주제별 TOP 10 추천: 한글·영문 키워드, 일치 주제·추천 근거 표시
+- 추천 결과 Non-OA APC $0 필터·북마크·공식 페이지 연결
+- 브라우저 내 키워드 매칭 · 입력 내용 외부 전송 없음
+
 - **전체 보기 및 출판사 탭**: Springer Nature → Elsevier → IEEE → Wiley → Taylor & Francis → IOP → JMIR → PLOS
 - **검색과 필터**: 저널명 검색, Q1–Q4 필터, Non-OA APC $0만 보기, OA 전용 저널 보기
 - **정렬**: Quartile, IF, OA APC, 저널명 및 기본 순서
